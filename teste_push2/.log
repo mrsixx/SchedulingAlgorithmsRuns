@@ -581,3 +581,34 @@ Finishing execution...
 [4/25/2025 2:02:28 PM] Makespan: 587
 Makespan: 587
 |--------------------------------------------------------------------------|
+[main e4c79c4] Resultados mmasv2-i para instância 2/2 de test [{'04/25/2025 02:02:28 PM'}]
+ 3 files changed, 34 insertions(+)
+ create mode 100644 teste_push2/Fattahi12.fjs.test-MMASV2-iterative-m587-638811865485638211.json
+ create mode 100644 teste_push2/Fattahi12.fjs.test-MMASV2-iterative.csv
+[04/25/2025 02:02:28 PM] Finalizando com mmasv2-i
+[04/25/2025 02:02:35 PM] Iniciando a execução do solver #mmasv2-p
+[04/25/2025 02:02:35 PM] Solvers restantes: ['acsv2-i', 'acsv2-p']
+[4/25/2025 2:02:35 PM] Processador lógico: 12
+[4/25/2025 2:02:35 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 2:02:35 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 2:02:35 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi12.fjs
+[4/25/2025 2:02:35 PM] Jobs: 5; Operations: 15; Machines: 7
+[4/25/2025 2:02:35 PM] Trivial Upper bound: 2615
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 2:02:35 PM] Starting MMAS algorithm with following parameters:
+[4/25/2025 2:02:35 PM] Alpha = 1; Beta = 1.4; Rho = 0.02; Min pheromone = 0.025161030595813202; Max pheromone = 0.06793478260869565.
+[4/25/2025 2:02:35 PM] Depositing 0.06793478260869565 pheromone units over 39 machine-operation pairs...
+[4/25/2025 2:02:35 PM] Generating 15 artificial ants from #1th wave...
+[4/25/2025 2:02:35 PM] #1th wave ants start to walk...
+[4/25/2025 2:02:35 PM] #1th wave ants has stopped after 00:00:00.0099452!
+[4/25/2025 2:02:35 PM] Running global pheromone update...
+[4/25/2025 2:02:35 PM] Iteration best makespan: 584
+[4/25/2025 2:02:35 PM] Best so far makespan: 584
+[4/25/2025 2:02:35 PM] Every ant has stopped after 00:00:00.0179736.
+[4/25/2025 2:02:35 PM] 
+Finishing execution...
+[4/25/2025 2:02:35 PM] Better solution found by ant 2 on #1th wave!
+[4/25/2025 2:02:35 PM] Makespan: 584
+Makespan: 584
+|--------------------------------------------------------------------------|
