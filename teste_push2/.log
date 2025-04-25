@@ -149,3 +149,34 @@ Finishing execution...
 [4/25/2025 2:00:52 PM] Makespan: 91
 Makespan: 91
 |--------------------------------------------------------------------------|
+[main 69b3cd5] Resultados rbasv2-p para instância 1/2 de test [{'04/25/2025 02:00:52 PM'}]
+ 3 files changed, 34 insertions(+)
+ create mode 100644 teste_push2/Fattahi1.fjs.test-RBASV2-parallel-m91-638811864524862022.json
+ create mode 100644 teste_push2/Fattahi1.fjs.test-RBASV2-parallel.csv
+[04/25/2025 02:00:52 PM] Finalizando com rbasv2-p
+[04/25/2025 02:00:59 PM] Iniciando a execução do solver #easv2-i
+[04/25/2025 02:00:59 PM] Solvers restantes: ['easv2-p', 'mmasv2-i', 'mmasv2-p', 'acsv2-i', 'acsv2-p']
+[4/25/2025 2:00:59 PM] Processador lógico: 12
+[4/25/2025 2:00:59 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 2:00:59 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 2:00:59 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi1.fjs
+[4/25/2025 2:00:59 PM] Jobs: 2; Operations: 4; Machines: 2
+[4/25/2025 2:00:59 PM] Trivial Upper bound: 204
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 2:00:59 PM] Starting EAS algorithm with following parameters:
+[4/25/2025 2:00:59 PM] Alpha = 1; Beta = 1.4; Rho = 0.5; Initial pheromone = 0.17582417582417584.
+[4/25/2025 2:00:59 PM] Depositing 0.17582417582417584 pheromone units over 8 machine-operation pairs...
+[4/25/2025 2:00:59 PM] Generating 4 artificial ants from #1th wave...
+[4/25/2025 2:00:59 PM] #1th wave ants start to walk...
+[4/25/2025 2:00:59 PM] #1th wave ants has stopped after 00:00:00.0049232!
+[4/25/2025 2:00:59 PM] Running offline pheromone update...
+[4/25/2025 2:00:59 PM] Iteration best makespan: 86
+[4/25/2025 2:00:59 PM] Best so far makespan: 86
+[4/25/2025 2:00:59 PM] Every ant has stopped after 00:00:00.0116097.
+[4/25/2025 2:00:59 PM] 
+Finishing execution...
+[4/25/2025 2:00:59 PM] Better solution found by ant 1 on #1th wave!
+[4/25/2025 2:00:59 PM] Makespan: 86
+Makespan: 86
+|--------------------------------------------------------------------------|
