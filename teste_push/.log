@@ -1,0 +1,14 @@
+[4/25/2025 1:42:50 PM] Processador lógico: 12
+[4/25/2025 1:42:50 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 1:42:50 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 1:42:50 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi1.fjs
+[4/25/2025 1:42:50 PM] Jobs: 2; Operations: 4; Machines: 2
+[4/25/2025 1:42:50 PM] Trivial Upper bound: 204
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 1:42:50 PM] Starting greedy algorithm
+[4/25/2025 1:42:50 PM] Solution found after 00:00:00.0000297.
+[4/25/2025 1:42:50 PM] 
+Finishing execution...
+Makespan: 91
+|--------------------------------------------------------------------------|
