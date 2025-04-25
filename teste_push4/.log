@@ -456,3 +456,30 @@ Finishing execution...
 [4/25/2025 2:07:25 PM] Makespan: 549
 Makespan: 549
 |--------------------------------------------------------------------------|
+[04/25/2025 02:07:25 PM] Finalizando com easv2-i
+[04/25/2025 02:07:31 PM] Iniciando a execução do solver #easv2-p
+[04/25/2025 02:07:31 PM] Solvers restantes: ['mmasv2-i', 'mmasv2-p', 'acsv2-i', 'acsv2-p']
+[4/25/2025 2:07:31 PM] Processador lógico: 12
+[4/25/2025 2:07:31 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 2:07:31 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 2:07:31 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi12.fjs
+[4/25/2025 2:07:31 PM] Jobs: 5; Operations: 15; Machines: 7
+[4/25/2025 2:07:31 PM] Trivial Upper bound: 2615
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 2:07:31 PM] Starting EAS algorithm with following parameters:
+[4/25/2025 2:07:31 PM] Alpha = 1; Beta = 1.4; Rho = 0.5; Initial pheromone = 0.08152173913043478.
+[4/25/2025 2:07:31 PM] Depositing 0.08152173913043478 pheromone units over 39 machine-operation pairs...
+[4/25/2025 2:07:31 PM] Generating 15 artificial ants from #1th wave...
+[4/25/2025 2:07:31 PM] #1th wave ants start to walk...
+[4/25/2025 2:07:31 PM] #1th wave ants has stopped after 00:00:00.0103850!
+[4/25/2025 2:07:31 PM] Running offline pheromone update...
+[4/25/2025 2:07:31 PM] Iteration best makespan: 606
+[4/25/2025 2:07:31 PM] Best so far makespan: 606
+[4/25/2025 2:07:31 PM] Every ant has stopped after 00:00:00.0194687.
+[4/25/2025 2:07:31 PM] 
+Finishing execution...
+[4/25/2025 2:07:31 PM] Better solution found by ant 15 on #1th wave!
+[4/25/2025 2:07:31 PM] Makespan: 606
+Makespan: 606
+|--------------------------------------------------------------------------|
