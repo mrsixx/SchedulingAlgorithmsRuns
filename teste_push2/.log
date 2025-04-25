@@ -645,3 +645,36 @@ Finishing execution...
 [4/25/2025 2:02:42 PM] Makespan: 618
 Makespan: 618
 |--------------------------------------------------------------------------|
+[main 8bad97e] Resultados acsv2-i para instância 2/2 de test [{'04/25/2025 02:02:42 PM'}]
+ 3 files changed, 36 insertions(+)
+ create mode 100644 teste_push2/Fattahi12.fjs.test-ACSV2-iterative-m618-638811865623204654.json
+ create mode 100644 teste_push2/Fattahi12.fjs.test-ACSV2-iterative.csv
+[04/25/2025 02:02:42 PM] Finalizando com acsv2-i
+[04/25/2025 02:02:48 PM] Iniciando a execução do solver #acsv2-p
+[04/25/2025 02:02:48 PM] Solvers restantes: []
+[4/25/2025 2:02:49 PM] Processador lógico: 12
+[4/25/2025 2:02:49 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 2:02:49 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 2:02:49 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi12.fjs
+[4/25/2025 2:02:49 PM] Jobs: 5; Operations: 15; Machines: 7
+[4/25/2025 2:02:49 PM] Trivial Upper bound: 2615
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 2:02:49 PM] Starting ACS algorithm with following parameters:
+[4/25/2025 2:02:49 PM] Alpha = 1; Beta = 1.4; Rho = 0.1; Phi= 0.1; Initial pheromone = 9.057971014492754E-05.
+[4/25/2025 2:02:49 PM] Depositing 9.057971014492754E-05 pheromone units over 39 machine-operation pairs...
+[4/25/2025 2:02:49 PM] 
+Q0 becomes NaN
+[4/25/2025 2:02:49 PM] Generating 10 artificial ants from #1th wave...
+[4/25/2025 2:02:49 PM] #1th wave ants start to walk...
+[4/25/2025 2:02:49 PM] #1th wave ants has stopped after 00:00:00.0100649!
+[4/25/2025 2:02:49 PM] Running offline pheromone update...
+[4/25/2025 2:02:49 PM] Iteration best makespan: 602
+[4/25/2025 2:02:49 PM] Best so far makespan: 602
+[4/25/2025 2:02:49 PM] Every ant has stopped after 00:00:00.0162094.
+[4/25/2025 2:02:49 PM] 
+Finishing execution...
+[4/25/2025 2:02:49 PM] Better solution found by ant 5 on #1th wave!
+[4/25/2025 2:02:49 PM] Makespan: 602
+Makespan: 602
+|--------------------------------------------------------------------------|
