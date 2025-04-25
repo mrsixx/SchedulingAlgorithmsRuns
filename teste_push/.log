@@ -12,3 +12,30 @@ Run 1/1
 Finishing execution...
 Makespan: 91
 |--------------------------------------------------------------------------|
+[main 7b93502] Resultados greedy para instância 1/2 de test [{'04/25/2025 01:45:10 PM'}]
+ 2 files changed, 10 insertions(+), 10 deletions(-)
+ rename teste_push/{Fattahi1.fjs.test-greedy-iterative-m91-638811853702286164.json => Fattahi1.fjs.test-greedy-iterative-m91-638811855103086093.json} (68%)
+[4/25/2025 1:45:12 PM] Processador lógico: 12
+[4/25/2025 1:45:12 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 1:45:12 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 1:45:12 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi1.fjs
+[4/25/2025 1:45:12 PM] Jobs: 2; Operations: 4; Machines: 2
+[4/25/2025 1:45:12 PM] Trivial Upper bound: 204
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 1:45:12 PM] Starting AS algorithm with following parameters:
+[4/25/2025 1:45:12 PM] Alpha = 1; Beta = 1.4; Rho = 0.5; Initial pheromone = 0.04395604395604396.
+[4/25/2025 1:45:12 PM] Depositing 0.04395604395604396 pheromone units over 8 machine-operation pairs...
+[4/25/2025 1:45:12 PM] Generating 4 artificial ants from #1th wave...
+[4/25/2025 1:45:12 PM] #1th wave ants start to walk...
+[4/25/2025 1:45:12 PM] #1th wave ants has stopped after 00:00:00.0053534!
+[4/25/2025 1:45:12 PM] Running offline pheromone update...
+[4/25/2025 1:45:12 PM] Iteration best makespan: 66
+[4/25/2025 1:45:12 PM] Best so far makespan: 66
+[4/25/2025 1:45:12 PM] Every ant has stopped after 00:00:00.0106172.
+[4/25/2025 1:45:12 PM] 
+Finishing execution...
+[4/25/2025 1:45:12 PM] Better solution found by ant 4 on #1th wave!
+[4/25/2025 1:45:12 PM] Makespan: 66
+Makespan: 66
+|--------------------------------------------------------------------------|
