@@ -341,3 +341,31 @@ Finishing execution...
 [4/25/2025 1:45:32 PM] Makespan: 623
 Makespan: 623
 |--------------------------------------------------------------------------|
+[main 64d03f2] Resultados asv2-i para instância 2/2 de test [{'04/25/2025 01:45:32 PM'}]
+ 3 files changed, 31 insertions(+)
+ create mode 100644 teste_push/Fattahi12.fjs.test-ASV2-iterative-m623-638811855323981480.json
+ create mode 100644 teste_push/Fattahi12.fjs.test-ASV2-iterative.csv
+[4/25/2025 1:45:34 PM] Processador lógico: 12
+[4/25/2025 1:45:34 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 1:45:34 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 1:45:34 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi12.fjs
+[4/25/2025 1:45:34 PM] Jobs: 5; Operations: 15; Machines: 7
+[4/25/2025 1:45:34 PM] Trivial Upper bound: 2615
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 1:45:34 PM] Starting AS algorithm with following parameters:
+[4/25/2025 1:45:34 PM] Alpha = 1; Beta = 1.4; Rho = 0.5; Initial pheromone = 0.020380434782608696.
+[4/25/2025 1:45:34 PM] Depositing 0.020380434782608696 pheromone units over 39 machine-operation pairs...
+[4/25/2025 1:45:34 PM] Generating 15 artificial ants from #1th wave...
+[4/25/2025 1:45:34 PM] #1th wave ants start to walk...
+[4/25/2025 1:45:34 PM] #1th wave ants has stopped after 00:00:00.0114200!
+[4/25/2025 1:45:34 PM] Running offline pheromone update...
+[4/25/2025 1:45:34 PM] Iteration best makespan: 543
+[4/25/2025 1:45:34 PM] Best so far makespan: 543
+[4/25/2025 1:45:34 PM] Every ant has stopped after 00:00:00.0209062.
+[4/25/2025 1:45:34 PM] 
+Finishing execution...
+[4/25/2025 1:45:34 PM] Better solution found by ant 9 on #1th wave!
+[4/25/2025 1:45:34 PM] Makespan: 543
+Makespan: 543
+|--------------------------------------------------------------------------|
