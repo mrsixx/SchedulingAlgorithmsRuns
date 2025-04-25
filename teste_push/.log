@@ -295,3 +295,21 @@ Finishing execution...
 [4/25/2025 1:45:28 PM] Makespan: 89
 Makespan: 89
 |--------------------------------------------------------------------------|
+[main 9f43471] Resultados acsv2-p para instância 1/2 de test [{'04/25/2025 01:45:28 PM'}]
+ 3 files changed, 33 insertions(+)
+ create mode 100644 teste_push/Fattahi1.fjs.test-ACSV2-parallel-m89-638811855287462300.json
+ create mode 100644 teste_push/Fattahi1.fjs.test-ACSV2-parallel.csv
+[4/25/2025 1:45:30 PM] Processador lógico: 12
+[4/25/2025 1:45:30 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 1:45:30 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 1:45:30 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi12.fjs
+[4/25/2025 1:45:30 PM] Jobs: 5; Operations: 15; Machines: 7
+[4/25/2025 1:45:30 PM] Trivial Upper bound: 2615
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 1:45:30 PM] Starting greedy algorithm
+[4/25/2025 1:45:30 PM] Solution found after 00:00:00.0001264.
+[4/25/2025 1:45:30 PM] 
+Finishing execution...
+Makespan: 736
+|--------------------------------------------------------------------------|
