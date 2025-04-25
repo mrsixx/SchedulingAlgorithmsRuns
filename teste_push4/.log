@@ -1,0 +1,28 @@
+[04/25/2025 02:05:35 PM] 
+
+
+Executando instâncias de / (1/2)...
+
+[04/25/2025 02:05:35 PM] 
+
+
+Executando instâncias de test (2/2)...
+
+[04/25/2025 02:05:35 PM] Instância 1/2...
+
+[04/25/2025 02:05:35 PM] Iniciando a execução do solver #greedy
+[04/25/2025 02:05:35 PM] Solvers restantes: ['asv2-i', 'asv2-p', 'rbasv2-i', 'rbasv2-p', 'easv2-i', 'easv2-p', 'mmasv2-i', 'mmasv2-p', 'acsv2-i', 'acsv2-p']
+[4/25/2025 2:05:35 PM] Processador lógico: 12
+[4/25/2025 2:05:35 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 2:05:35 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 2:05:35 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi1.fjs
+[4/25/2025 2:05:35 PM] Jobs: 2; Operations: 4; Machines: 2
+[4/25/2025 2:05:35 PM] Trivial Upper bound: 204
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 2:05:35 PM] Starting greedy algorithm
+[4/25/2025 2:05:35 PM] Solution found after 00:00:00.0000266.
+[4/25/2025 2:05:35 PM] 
+Finishing execution...
+Makespan: 91
+|--------------------------------------------------------------------------|
