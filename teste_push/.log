@@ -207,3 +207,31 @@ Finishing execution...
 [4/25/2025 1:45:23 PM] Makespan: 66
 Makespan: 66
 |--------------------------------------------------------------------------|
+[main a2e0353] Resultados mmasv2-i para instância 1/2 de test [{'04/25/2025 01:45:23 PM'}]
+ 3 files changed, 31 insertions(+)
+ create mode 100644 teste_push/Fattahi1.fjs.test-MMASV2-iterative-m66-638811855232283436.json
+ create mode 100644 teste_push/Fattahi1.fjs.test-MMASV2-iterative.csv
+[4/25/2025 1:45:25 PM] Processador lógico: 12
+[4/25/2025 1:45:25 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 1:45:25 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 1:45:25 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi1.fjs
+[4/25/2025 1:45:25 PM] Jobs: 2; Operations: 4; Machines: 2
+[4/25/2025 1:45:25 PM] Trivial Upper bound: 204
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 1:45:25 PM] Starting MMAS algorithm with following parameters:
+[4/25/2025 1:45:25 PM] Alpha = 1; Beta = 1.4; Rho = 0.02; Min pheromone = 0.2747252747252747; Max pheromone = 0.5494505494505494.
+[4/25/2025 1:45:25 PM] Depositing 0.5494505494505494 pheromone units over 8 machine-operation pairs...
+[4/25/2025 1:45:25 PM] Generating 4 artificial ants from #1th wave...
+[4/25/2025 1:45:25 PM] #1th wave ants start to walk...
+[4/25/2025 1:45:25 PM] #1th wave ants has stopped after 00:00:00.0088386!
+[4/25/2025 1:45:25 PM] Running global pheromone update...
+[4/25/2025 1:45:25 PM] Iteration best makespan: 126
+[4/25/2025 1:45:25 PM] Best so far makespan: 126
+[4/25/2025 1:45:25 PM] Every ant has stopped after 00:00:00.0155591.
+[4/25/2025 1:45:25 PM] 
+Finishing execution...
+[4/25/2025 1:45:25 PM] Better solution found by ant 3 on #1th wave!
+[4/25/2025 1:45:25 PM] Makespan: 126
+Makespan: 126
+|--------------------------------------------------------------------------|
