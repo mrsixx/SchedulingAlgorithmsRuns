@@ -180,3 +180,34 @@ Finishing execution...
 [4/25/2025 2:00:59 PM] Makespan: 86
 Makespan: 86
 |--------------------------------------------------------------------------|
+[main 82293f3] Resultados easv2-i para instância 1/2 de test [{'04/25/2025 02:00:59 PM'}]
+ 3 files changed, 34 insertions(+)
+ create mode 100644 teste_push2/Fattahi1.fjs.test-EASV2-iterative-m86-638811864593528925.json
+ create mode 100644 teste_push2/Fattahi1.fjs.test-EASV2-iterative.csv
+[04/25/2025 02:00:59 PM] Finalizando com easv2-i
+[04/25/2025 02:01:05 PM] Iniciando a execução do solver #easv2-p
+[04/25/2025 02:01:05 PM] Solvers restantes: ['mmasv2-i', 'mmasv2-p', 'acsv2-i', 'acsv2-p']
+[4/25/2025 2:01:06 PM] Processador lógico: 12
+[4/25/2025 2:01:06 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/25/2025 2:01:06 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/25/2025 2:01:06 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/test/Fattahi1.fjs
+[4/25/2025 2:01:06 PM] Jobs: 2; Operations: 4; Machines: 2
+[4/25/2025 2:01:06 PM] Trivial Upper bound: 204
+|--------------------------------------------------------------------------|
+Run 1/1
+[4/25/2025 2:01:06 PM] Starting EAS algorithm with following parameters:
+[4/25/2025 2:01:06 PM] Alpha = 1; Beta = 1.4; Rho = 0.5; Initial pheromone = 0.17582417582417584.
+[4/25/2025 2:01:06 PM] Depositing 0.17582417582417584 pheromone units over 8 machine-operation pairs...
+[4/25/2025 2:01:06 PM] Generating 4 artificial ants from #1th wave...
+[4/25/2025 2:01:06 PM] #1th wave ants start to walk...
+[4/25/2025 2:01:06 PM] #1th wave ants has stopped after 00:00:00.0080317!
+[4/25/2025 2:01:06 PM] Running offline pheromone update...
+[4/25/2025 2:01:06 PM] Iteration best makespan: 66
+[4/25/2025 2:01:06 PM] Best so far makespan: 66
+[4/25/2025 2:01:06 PM] Every ant has stopped after 00:00:00.0157605.
+[4/25/2025 2:01:06 PM] 
+Finishing execution...
+[4/25/2025 2:01:06 PM] Better solution found by ant 4 on #1th wave!
+[4/25/2025 2:01:06 PM] Makespan: 66
+Makespan: 66
+|--------------------------------------------------------------------------|
