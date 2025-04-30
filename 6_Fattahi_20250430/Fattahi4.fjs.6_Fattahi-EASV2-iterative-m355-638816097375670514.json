@@ -1,0 +1,1 @@
+{"StartTimes":{"1":0,"5":0,"6":125,"2":268,"3":63,"4":183},"CompletionTimes":{"1":63,"5":125,"6":268,"2":355,"3":183,"4":335},"MachineAssignment":{"5":{"Id":1},"6":{"Id":1},"2":{"Id":1},"1":{"Id":2},"3":{"Id":2},"4":{"Id":2}},"Watch":{"IsRunning":false,"Elapsed":"00:00:00.0034423","ElapsedMilliseconds":3,"ElapsedTicks":3442307},"Makespan":355}
