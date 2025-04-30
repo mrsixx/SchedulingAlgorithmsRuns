@@ -33388,3 +33388,78 @@ Finishing execution...
 [4/30/2025 12:19:27 PM] Makespan: 831
 Makespan: 831
 |--------------------------------------------------------------------------|
+[04/30/2025 12:19:27 PM] ORCHESTRATOR: Finalizando com acsv2-p
+[04/30/2025 12:19:34 PM] ORCHESTRATOR: Finalizando instâncias de 1_Brandimarte em 0:07:14.578327...
+
+[04/30/2025 12:19:34 PM] ORCHESTRATOR: Instância 5/15...
+
+[04/30/2025 12:19:34 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[04/30/2025 12:19:34 PM] ORCHESTRATOR: Solvers restantes: ['asv2-i', 'asv2-p', 'rbasv2-i', 'rbasv2-p', 'easv2-i', 'easv2-p', 'mmasv2-i', 'mmasv2-p', 'acsv2-i', 'acsv2-p']
+[4/30/2025 12:19:34 PM] Processador lógico: 12
+[4/30/2025 12:19:34 PM] ThreadPool disponível: 32767/32767 (Worker)
+[4/30/2025 12:19:34 PM] ThreadPool disponível: 1000/1000 (IO)
+[4/30/2025 12:19:34 PM] Benchmark: /home/matheus.antonio/Documents/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/1_Brandimarte/BrandimarteMk13.fjs
+[4/30/2025 12:19:34 PM] Jobs: 30; Operations: 231; Machines: 10
+[4/30/2025 12:19:34 PM] Trivial Upper bound: 6365
+|--------------------------------------------------------------------------|
+Run 1/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0048572.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 2/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0048426.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 3/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0055451.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 4/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0059035.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 5/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0042377.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 6/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0048631.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 7/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0045303.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 8/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0048577.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 9/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0043500.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+Run 10/10
+[4/30/2025 12:19:34 PM] Starting greedy algorithm
+[4/30/2025 12:19:34 PM] Solution found after 00:00:00.0052436.
+[4/30/2025 12:19:34 PM] 
+Finishing execution...
+Makespan: 1827
+|--------------------------------------------------------------------------|
