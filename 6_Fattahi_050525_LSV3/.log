@@ -236,3 +236,33 @@ Topological sort:
  S  O7  O1  O8  O10  O2  O9  O4  O11  O3  O5  O12  O6  T 
 Makespan: 853
 |--------------------------------------------------------------------------|
+[05/05/2025 08:12:54 PM] ORCHESTRATOR: Finalizando com mmasv3-i
+[05/05/2025 08:13:01 PM] ORCHESTRATOR: Iniciando a execução do solver #mmasv3-p
+[05/05/2025 08:13:01 PM] ORCHESTRATOR: Solvers restantes: ['acsv3-i', 'acsv3-p']
+[05/05/2025 20:13:01] Processador lógico: 12
+[05/05/2025 20:13:01] ThreadPool disponível: 32767/32767 (Worker)
+[05/05/2025 20:13:01] ThreadPool disponível: 1000/1000 (IO)
+[05/05/2025 20:13:01] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/6_Fattahi/Fattahi10.fjs
+[05/05/2025 20:13:01] Jobs: 4; Operations: 12; Machines: 5
+[05/05/2025 20:13:01] Trivial Upper bound: 1986
+|--------------------------------------------------------------------------|
+Run 1/1
+[05/05/2025 20:13:01] Creating disjunctive graph...
+[05/05/2025 20:13:01] Starting MMASV3 algorithm with following parameters:
+[05/05/2025 20:13:01] Alpha = 1; Beta = 1,4; Rho = 0,02; Min pheromone = 0,004837461300309598; Max pheromone = 0,08223684210526316.
+[05/05/2025 20:13:01] Depositing 0,08223684210526316 pheromone units over 100 disjunctions...
+[05/05/2025 20:13:01] Generating 4 artificial ants from #1th wave...
+[05/05/2025 20:13:01] #1th wave ants start to walk...
+[05/05/2025 20:13:01] #1th wave ants has stopped after 00:00:00.0158909!
+[05/05/2025 20:13:01] Running offline pheromone update...
+[05/05/2025 20:13:01] Iteration best makespan: 853
+[05/05/2025 20:13:01] Best so far makespan: 853
+[05/05/2025 20:13:01] Every ant has stopped after 00:00:00.0260525.
+[05/05/2025 20:13:01] 
+Finishing execution...
+[05/05/2025 20:13:01] Better solution found by ant 1 on #1th wave!
+[05/05/2025 20:13:01] Makespan: 853
+Topological sort: 
+ S  O7  O1  O8  O10  O9  O4  O2  O11  O5  O12  O6  O3  T 
+Makespan: 853
+|--------------------------------------------------------------------------|
