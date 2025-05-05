@@ -1,0 +1,202 @@
+[05/05/2025 08:20:26 PM] ORCHESTRATOR: 
+
+
+Executando instâncias de / (1/2)...
+
+[05/05/2025 08:20:26 PM] ORCHESTRATOR: 
+
+
+Executando instâncias de 1_Brandimarte (2/2)...
+
+[05/05/2025 08:20:26 PM] ORCHESTRATOR: Instância 1/15...
+
+[05/05/2025 08:20:26 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[05/05/2025 08:20:26 PM] ORCHESTRATOR: Solvers restantes: ['asv1-i', 'asv1-p', 'asv2-i', 'asv2-p', 'asv3-i', 'asv3-p', 'rbasv1-i', 'rbasv1-p', 'rbasv2-i', 'rbasv2-p', 'rbasv3-i', 'rbasv3-p', 'easv1-i', 'easv1-p', 'easv2-i', 'easv2-p', 'easv3-i', 'easv3-p', 'mmasv1-i', 'mmasv1-p', 'mmasv2-i', 'mmasv2-p', 'mmasv3-i', 'mmasv3-p', 'acsv0-i', 'acsv0-p', 'acsv1-i', 'acsv1-p', 'acsv2-i', 'acsv2-p', 'acsv3-i', 'acsv3-p']
+[05/05/2025 20:20:26] Processador lógico: 12
+[05/05/2025 20:20:26] ThreadPool disponível: 32767/32767 (Worker)
+[05/05/2025 20:20:26] ThreadPool disponível: 1000/1000 (IO)
+[05/05/2025 20:20:26] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/1_Brandimarte/BrandimarteMk12.fjs
+[05/05/2025 20:20:26] Jobs: 30; Operations: 193; Machines: 10
+[05/05/2025 20:20:26] Trivial Upper bound: 4844
+|--------------------------------------------------------------------------|
+Run 1/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0020676.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 2/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0021859.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 3/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0021661.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 4/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0020172.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 5/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0020603.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 6/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0028769.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 7/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0016750.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 8/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017766.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 9/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017372.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 10/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0016926.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 11/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017225.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 12/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0016616.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 13/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017748.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 14/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0021994.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 15/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017321.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 16/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0016793.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 17/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0016981.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 18/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017451.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 19/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0016949.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 20/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0019899.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 21/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0021033.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 22/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017098.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 23/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0029913.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 24/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017646.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 25/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017105.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 26/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017371.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 27/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0018586.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 28/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0017409.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 29/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0019042.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+Run 30/30
+[05/05/2025 20:20:26] Starting greedy algorithm
+[05/05/2025 20:20:26] Solution found after 00:00:00.0016585.
+[05/05/2025 20:20:26] 
+Finishing execution...
+Makespan: 1093
+|--------------------------------------------------------------------------|
