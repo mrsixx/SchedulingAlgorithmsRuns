@@ -1,0 +1,28 @@
+[05/05/2025 08:12:06 PM] ORCHESTRATOR: 
+
+
+Executando instâncias de / (1/2)...
+
+[05/05/2025 08:12:06 PM] ORCHESTRATOR: 
+
+
+Executando instâncias de 6_Fattahi (2/2)...
+
+[05/05/2025 08:12:06 PM] ORCHESTRATOR: Instância 1/20...
+
+[05/05/2025 08:12:06 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[05/05/2025 08:12:06 PM] ORCHESTRATOR: Solvers restantes: ['asv3-i', 'asv3-p', 'rbasv3-i', 'rbasv3-p', 'easv3-i', 'easv3-p', 'mmasv3-i', 'mmasv3-p', 'acsv3-i', 'acsv3-p']
+[05/05/2025 20:12:06] Processador lógico: 12
+[05/05/2025 20:12:06] ThreadPool disponível: 32767/32767 (Worker)
+[05/05/2025 20:12:06] ThreadPool disponível: 1000/1000 (IO)
+[05/05/2025 20:12:06] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/6_Fattahi/Fattahi10.fjs
+[05/05/2025 20:12:06] Jobs: 4; Operations: 12; Machines: 5
+[05/05/2025 20:12:06] Trivial Upper bound: 1986
+|--------------------------------------------------------------------------|
+Run 1/1
+[05/05/2025 20:12:06] Starting greedy algorithm
+[05/05/2025 20:12:06] Solution found after 00:00:00.0000894.
+[05/05/2025 20:12:06] 
+Finishing execution...
+Makespan: 608
+|--------------------------------------------------------------------------|
