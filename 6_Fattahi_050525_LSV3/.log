@@ -330,3 +330,24 @@ Topological sort:
  S  O7  O1  O8  O10  O2  O9  O4  O11  O3  O5  O12  O6  T 
 Makespan: 853
 |--------------------------------------------------------------------------|
+[05/05/2025 08:13:15 PM] ORCHESTRATOR: Finalizando com acsv3-p
+[05/05/2025 08:13:21 PM] ORCHESTRATOR: Finalizando instâncias de 6_Fattahi em 0:01:15.062176...
+
+[05/05/2025 08:13:21 PM] ORCHESTRATOR: Instância 2/20...
+
+[05/05/2025 08:13:21 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[05/05/2025 08:13:21 PM] ORCHESTRATOR: Solvers restantes: ['asv3-i', 'asv3-p', 'rbasv3-i', 'rbasv3-p', 'easv3-i', 'easv3-p', 'mmasv3-i', 'mmasv3-p', 'acsv3-i', 'acsv3-p']
+[05/05/2025 20:13:21] Processador lógico: 12
+[05/05/2025 20:13:21] ThreadPool disponível: 32767/32767 (Worker)
+[05/05/2025 20:13:21] ThreadPool disponível: 1000/1000 (IO)
+[05/05/2025 20:13:21] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/6_Fattahi/Fattahi11.fjs
+[05/05/2025 20:13:21] Jobs: 5; Operations: 15; Machines: 6
+[05/05/2025 20:13:21] Trivial Upper bound: 2421
+|--------------------------------------------------------------------------|
+Run 1/1
+[05/05/2025 20:13:22] Starting greedy algorithm
+[05/05/2025 20:13:22] Solution found after 00:00:00.0001490.
+[05/05/2025 20:13:22] 
+Finishing execution...
+Makespan: 783
+|--------------------------------------------------------------------------|
