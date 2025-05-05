@@ -266,3 +266,35 @@ Topological sort:
  S  O7  O1  O8  O10  O9  O4  O2  O11  O5  O12  O6  O3  T 
 Makespan: 853
 |--------------------------------------------------------------------------|
+[05/05/2025 08:13:01 PM] ORCHESTRATOR: Finalizando com mmasv3-p
+[05/05/2025 08:13:08 PM] ORCHESTRATOR: Iniciando a execução do solver #acsv3-i
+[05/05/2025 08:13:08 PM] ORCHESTRATOR: Solvers restantes: ['acsv3-p']
+[05/05/2025 20:13:08] Processador lógico: 12
+[05/05/2025 20:13:08] ThreadPool disponível: 32767/32767 (Worker)
+[05/05/2025 20:13:08] ThreadPool disponível: 1000/1000 (IO)
+[05/05/2025 20:13:08] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/6_Fattahi/Fattahi10.fjs
+[05/05/2025 20:13:08] Jobs: 4; Operations: 12; Machines: 5
+[05/05/2025 20:13:08] Trivial Upper bound: 1986
+|--------------------------------------------------------------------------|
+Run 1/1
+[05/05/2025 20:13:08] Creating disjunctive graph...
+[05/05/2025 20:13:08] Starting ACSV3 algorithm with following parameters:
+[05/05/2025 20:13:08] Alpha = 1; Beta = 1,4; Rho = 0,1; Phi= 0,1; Initial pheromone = 0,00013706140350877192.
+[05/05/2025 20:13:08] Depositing 0,00013706140350877192 pheromone units over 100 disjunctions...
+[05/05/2025 20:13:08] 
+Q0 becomes NaN
+[05/05/2025 20:13:08] Generating 10 artificial ants from #1th wave...
+[05/05/2025 20:13:08] #1th wave ants start to walk...
+[05/05/2025 20:13:08] #1th wave ants has stopped after 00:00:00.0155977!
+[05/05/2025 20:13:08] Running offline pheromone update...
+[05/05/2025 20:13:08] Iteration best makespan: 853
+[05/05/2025 20:13:08] Best so far makespan: 853
+[05/05/2025 20:13:08] Every ant has stopped after 00:00:00.0230969.
+[05/05/2025 20:13:08] 
+Finishing execution...
+[05/05/2025 20:13:08] Better solution found by ant 2 on #1th wave!
+[05/05/2025 20:13:08] Makespan: 853
+Topological sort: 
+ S  O7  O1  O8  O10  O2  O9  O4  O11  O5  O12  O3  O6  T 
+Makespan: 853
+|--------------------------------------------------------------------------|
