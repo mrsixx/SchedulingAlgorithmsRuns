@@ -501,3 +501,33 @@ Topological sort:
  S  O1  O2  O4  O10  O3  O5  O7  O6  O8  O13  O11  O14  O12  O15  O9  T 
 Makespan: 1063
 |--------------------------------------------------------------------------|
+[05/05/2025 08:13:56 PM] ORCHESTRATOR: Finalizando com easv3-i
+[05/05/2025 08:14:02 PM] ORCHESTRATOR: Iniciando a execução do solver #easv3-p
+[05/05/2025 08:14:02 PM] ORCHESTRATOR: Solvers restantes: ['mmasv3-i', 'mmasv3-p', 'acsv3-i', 'acsv3-p']
+[05/05/2025 20:14:02] Processador lógico: 12
+[05/05/2025 20:14:02] ThreadPool disponível: 32767/32767 (Worker)
+[05/05/2025 20:14:02] ThreadPool disponível: 1000/1000 (IO)
+[05/05/2025 20:14:02] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/6_Fattahi/Fattahi11.fjs
+[05/05/2025 20:14:02] Jobs: 5; Operations: 15; Machines: 6
+[05/05/2025 20:14:02] Trivial Upper bound: 2421
+|--------------------------------------------------------------------------|
+Run 1/1
+[05/05/2025 20:14:02] Creating disjunctive graph...
+[05/05/2025 20:14:02] Starting EASV3 algorithm with following parameters:
+[05/05/2025 20:14:02] Alpha = 1; Beta = 1,4; Rho = 0,5; Elitist weight: 5; Initial pheromone = 0,02554278416347382.
+[05/05/2025 20:14:02] Depositing 0,02554278416347382 pheromone units over 218 disjunctions...
+[05/05/2025 20:14:02] Generating 5 artificial ants from #1th wave...
+[05/05/2025 20:14:02] #1th wave ants start to walk...
+[05/05/2025 20:14:02] #1th wave ants has stopped after 00:00:00.0161185!
+[05/05/2025 20:14:02] Running offline pheromone update...
+[05/05/2025 20:14:02] Iteration best makespan: 1054
+[05/05/2025 20:14:02] Best so far makespan: 1054
+[05/05/2025 20:14:02] Every ant has stopped after 00:00:00.0273045.
+[05/05/2025 20:14:02] 
+Finishing execution...
+[05/05/2025 20:14:02] Better solution found by ant 4 on #1th wave!
+[05/05/2025 20:14:02] Makespan: 1054
+Topological sort: 
+ S  O1  O2  O4  O3  O5  O13  O6  O14  O7  O15  O8  O10  O9  O11  O12  T 
+Makespan: 1054
+|--------------------------------------------------------------------------|
