@@ -809,3 +809,33 @@ Topological sort:
  S  O10  O4  O11  O19  O1  O7  O12  O8  O2  O5  O3  O13  O6  O14  O16  O20  O15  O9  O17  O18  O21  T 
 Makespan: 1718
 |--------------------------------------------------------------------------|
+[05/05/2025 08:15:04 PM] ORCHESTRATOR: Finalizando com rbasv3-p
+[05/05/2025 08:15:10 PM] ORCHESTRATOR: Iniciando a execução do solver #easv3-i
+[05/05/2025 08:15:10 PM] ORCHESTRATOR: Solvers restantes: ['easv3-p', 'mmasv3-i', 'mmasv3-p', 'acsv3-i', 'acsv3-p']
+[05/05/2025 20:15:11] Processador lógico: 12
+[05/05/2025 20:15:11] ThreadPool disponível: 32767/32767 (Worker)
+[05/05/2025 20:15:11] ThreadPool disponível: 1000/1000 (IO)
+[05/05/2025 20:15:11] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/6_Fattahi/Fattahi14.fjs
+[05/05/2025 20:15:11] Jobs: 7; Operations: 21; Machines: 7
+[05/05/2025 20:15:11] Trivial Upper bound: 4452
+|--------------------------------------------------------------------------|
+Run 1/1
+[05/05/2025 20:15:11] Creating disjunctive graph...
+[05/05/2025 20:15:11] Starting EASV3 algorithm with following parameters:
+[05/05/2025 20:15:11] Alpha = 1; Beta = 1,4; Rho = 0,5; Elitist weight: 7; Initial pheromone = 0,031496062992125984.
+[05/05/2025 20:15:11] Depositing 0,031496062992125984 pheromone units over 522 disjunctions...
+[05/05/2025 20:15:11] Generating 7 artificial ants from #1th wave...
+[05/05/2025 20:15:11] #1th wave ants start to walk...
+[05/05/2025 20:15:11] #1th wave ants has stopped after 00:00:00.0233489!
+[05/05/2025 20:15:11] Running offline pheromone update...
+[05/05/2025 20:15:11] Iteration best makespan: 1569
+[05/05/2025 20:15:11] Best so far makespan: 1569
+[05/05/2025 20:15:11] Every ant has stopped after 00:00:00.0322466.
+[05/05/2025 20:15:11] 
+Finishing execution...
+[05/05/2025 20:15:11] Better solution found by ant 7 on #1th wave!
+[05/05/2025 20:15:11] Makespan: 1569
+Topological sort: 
+ S  O10  O4  O11  O16  O7  O19  O12  O17  O1  O8  O13  O18  O2  O5  O14  O3  O6  O15  O20  O9  O21  T 
+Makespan: 1569
+|--------------------------------------------------------------------------|
