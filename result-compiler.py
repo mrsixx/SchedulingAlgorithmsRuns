@@ -53,6 +53,64 @@ import matplotlib.pyplot as plt
 #     plt.savefig(f'{safe_instance}_cpu_time.png')
 #     plt.close()
 
+def plot_line_chart_by_solver(df, output_path='linha_makespan.png'):
+    # Pivota o dataframe: index = instancia, colunas = solver+approach, valores = makespan médio
+    pivot = df.pivot_table(index='Instance', columns='Solver + Approach', values='Makespan (avg)')
+    
+    # Ordena as instâncias no eixo x se desejar (opcional)
+    pivot = pivot.reindex(
+        sorted(pivot.index, key=lambda name: int(''.join(filter(str.isdigit, name))))
+    )
+    
+    # Plota
+    plt.figure(figsize=(12, 6))
+    for col in pivot.columns:
+        plt.plot(pivot.index, pivot[col], marker='o', label=col)
+    
+    plt.title('Makespan médio por instância e por abordagem')
+    plt.xlabel('Instância')
+    plt.ylabel('Makespan')
+    plt.xticks(rotation=45)
+    plt.grid(True, linestyle='--', alpha=0.5)
+    plt.legend(title='Solver + Approach')
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.show()
+
+def plot_line_chart(
+    df,
+    value_column: str,
+    title: str,
+    ylabel: str,
+    output_path: str
+):
+    # Cria uma coluna combinada para o pivot
+    if 'Solver + Approach' not in df.columns:
+        df['Solver + Approach'] = df['Solver'] + ' + ' + df['Approach']
+
+    # Pivota: index = instancia, colunas = solver+approach, valores = métrica
+    pivot = df.pivot_table(index='Instance', columns='Solver + Approach', values=value_column)
+
+    # Ordena instâncias numericamente
+    pivot = pivot.reindex(
+        sorted(pivot.index, key=lambda name: int(''.join(filter(str.isdigit, name))))
+    )
+
+    # Plota
+    plt.figure(figsize=(12, 6))
+    for col in pivot.columns:
+        plt.plot(pivot.index, pivot[col], marker='o', label=col)
+
+    plt.title(title)
+    plt.xlabel('Instância')
+    plt.ylabel(ylabel)
+    plt.xticks(rotation=45)
+    plt.grid(True, linestyle='--', alpha=0.5)
+    plt.legend(title='Solver + Approach')
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.show()
+
 
 def plot_metric_with_errorbars(
     df,
@@ -108,6 +166,9 @@ def plot_metric_with_errorbars(
 def plot_charts(df, output_dir):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
+    #plot_line_chart_by_solver(df, output_dir)
+    #plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por solver', 'Makespan', f'{output_dir}_makespan')
+    #plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e solver', 'CPU Time (ms)', f'{output_dir}_cputime')
 
     for instance_name, df_instance in df.groupby('Instance'):
         safe_instance = instance_name.replace(" ", "_").replace("/", "_")
@@ -120,10 +181,14 @@ def plot_charts(df, output_dir):
             output_path=makespan_path,
             title=f'{instance_name} - Makespan (hrs)',
             #transform=lambda x: x / 3600,
-            x_order=[
-                'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-                'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-                'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+            # x_order=[
+            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+            # x_order=['greedy-iterative',
+            #     'ASV1-iterative', 'ASV1-parallel',
+            #     'ASV2-iterative', 'ASV2-parallel'
+            #     'ASV3-iterative', 'ASV3-parallel']
         )
         
         cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
@@ -133,10 +198,14 @@ def plot_charts(df, output_dir):
             color='#f1a340',
             output_path=cpu_path,
             title=f'{instance_name} - CPU TIME',
-            x_order=[
-                'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-                'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-                'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+            # x_order=[
+            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+            # x_order=['greedy-iterative',
+            #     'ASV1-iterative', 'ASV1-parallel',
+            #     'ASV2-iterative', 'ASV2-parallel'
+            #     'ASV3-iterative', 'ASV3-parallel']
         )
 
 def listar_arquivos(dir, extensao):
@@ -206,12 +275,13 @@ def mover_arquivos_lixeira(arquivos, lixeira_dir):
         os.makedirs(os.path.dirname(new_file), exist_ok=True)
         shutil.move(arquivo['path'], new_file)
 
-
+#/workspaces/SchedulingAlgorithmsRuns/050525-sandbox/AS
 if __name__ == "__main__":
     if(len(sys.argv) <= 1):
         raise Exception("Diretório com resultados é obrigatório")
-
-    results_dir = f'/workspaces/SchedulingAlgorithmsRuns/{sys.argv[1]}'
+    
+    file = sys.argv[1]
+    results_dir = f'/workspaces/SchedulingAlgorithmsRuns/{file}'
     arquivos = listar_arquivos(results_dir, '.csv')
 
     for benchmark, g in groupby(sorted(arquivos, key=lambda x: x['benchmark']), key=lambda x: x['benchmark']):
@@ -219,5 +289,5 @@ if __name__ == "__main__":
         print(f'{len(arquivos_benchmark)} arquivos no benchmark {benchmark}\n\n')
         benchmark_data = extrair_metricas(arquivos_benchmark)
         #mover_arquivos_lixeira(arquivos_benchmark, lixeira_dir)
-        benchmark_data.to_csv(f'{benchmark}.csv', index=False, sep=';', decimal=',', float_format='%.2f')
+        benchmark_data.to_csv(os.path.join(results_dir, f'{benchmark}.csv'), index=False, sep=';', decimal=',', float_format='%.2f')
         plot_charts(benchmark_data, results_dir)
