@@ -163,15 +163,15 @@ def plot_metric_with_errorbars(
     plt.savefig(output_path)
     plt.close()
 
-def plot_charts(df, output_dir):
+def plot_charts(df, output_dir, files_base_name):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
-    #plot_line_chart_by_solver(df, output_dir)
-    #plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por solver', 'Makespan', f'{output_dir}_makespan')
-    #plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e solver', 'CPU Time (ms)', f'{output_dir}_cputime')
+    plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
+    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por solver', 'Makespan', f'{output_dir}/{files_base_name}_makespan')
+    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e solver', 'CPU Time (ms)', f'{output_dir}/{files_base_name}_cputime')
 
     for instance_name, df_instance in df.groupby('Instance'):
-        safe_instance = instance_name.replace(" ", "_").replace("/", "_")
+        safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
         
         makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
         plot_metric_with_errorbars(
@@ -277,17 +277,19 @@ def mover_arquivos_lixeira(arquivos, lixeira_dir):
 
 #/workspaces/SchedulingAlgorithmsRuns/050525-sandbox/AS
 if __name__ == "__main__":
-    if(len(sys.argv) <= 1):
+    if(len(sys.argv) <= 2):
         raise Exception("Diretório com resultados é obrigatório")
     
     file = sys.argv[1]
+    file_base_name = sys.argv[2]
     results_dir = f'/workspaces/SchedulingAlgorithmsRuns/{file}'
     arquivos = listar_arquivos(results_dir, '.csv')
-
+    output_dir = f'{results_dir}/output'
+    os.makedirs(output_dir, exist_ok=True)
     for benchmark, g in groupby(sorted(arquivos, key=lambda x: x['benchmark']), key=lambda x: x['benchmark']):
         arquivos_benchmark = list(g)
         print(f'{len(arquivos_benchmark)} arquivos no benchmark {benchmark}\n\n')
         benchmark_data = extrair_metricas(arquivos_benchmark)
         #mover_arquivos_lixeira(arquivos_benchmark, lixeira_dir)
-        benchmark_data.to_csv(os.path.join(results_dir, f'{benchmark}.csv'), index=False, sep=';', decimal=',', float_format='%.2f')
-        plot_charts(benchmark_data, results_dir)
+        benchmark_data.to_csv(os.path.join(output_dir, f'{file_base_name}.xcsv'), index=False, sep=';', decimal=',', float_format='%.2f')
+        plot_charts(benchmark_data, output_dir, file_base_name)
