@@ -5,79 +5,74 @@ import shutil
 from itertools import groupby
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# def plot_makespan_and_cpu(df, output_dir='/'):
-#     df['Solver-Approach'] = df['Solver'] + '-' + df['Approach']
-#     instance_name = df['Instance'].iloc[0]
-#     safe_instance = instance_name.replace(" ", "_").replace("/", "_")  # Nome do arquivo seguro
-
-#     bar_width = 0.2
-#     x = range(len(df))
-    
-#     # Cálculo dos erros (diferença entre média e extremos)
-#     makespan_avg = df['Makespan (avg)']
-#     makespan_err_lower = makespan_avg - df['Makespan (min)']
-#     makespan_err_upper = df['Makespan (max)'] - makespan_avg
-#     makespan_errors = [makespan_err_lower, makespan_err_upper]
-
-#     # Adiciona valores acima das barras
-#     for i, bar in enumerate(bars):
-#         height = bar.get_height()
-#         plt.text(bar.get_x() + bar.get_width() / 2, height + 1, f'{height:.1f}', ha='center', va='bottom', fontsize=9)
-
-#     # Gráfico de Makespan
-#     plt.figure(figsize=(12, 6))
-#     plt.bar(x, makespan_avg, yerr=makespan_errors, capsize=5, color='skyblue')
-#     plt.xticks(x, df['Solver-Approach'], rotation=45, ha='right')
-#     plt.ylabel('Makespan')
-#     plt.title(f'{instance_name} - Makespan')
-#     plt.legend()
-#     plt.tight_layout()
-#     plt.savefig(f'{safe_instance}_makespan.png')
-#     plt.close()
+from pypalettes import load_cmap
 
 
-#     cpu_avg = df['CPU TIME(ms) (avg)']
-#     cpu_err_lower = cpu_avg - df['CPU TIME(ms) (min)']
-#     cpu_err_upper = df['CPU TIME(ms) (max)'] - cpu_avg
-#     cpu_errors = [cpu_err_lower, cpu_err_upper]
+def plot_line_chart(
+    df,
+    value_column: str,
+    title: str,
+    ylabel: str,
+    output_path: str
+):
+    # Cria a coluna combinada se não existir
+    if 'Solver + Approach' not in df.columns:
+        df['Solver + Approach'] = df['Solver'] + ' + ' + df['Approach']
 
-#     # Gráfico de CPU TIME
-#     plt.figure(figsize=(12, 6))
-#     plt.bar(x, cpu_avg, yerr=cpu_errors, capsize=5, color='salmon')
-#     plt.xticks(x, df['Solver-Approach'], rotation=45, ha='right')
-#     plt.ylabel('CPU TIME (ms)')
-#     plt.title(f'{instance_name} - CPU TIME')
-#     plt.legend()
-#     plt.tight_layout()
-#     plt.savefig(f'{safe_instance}_cpu_time.png')
-#     plt.close()
+    # Pivota
+    pivot = df.pivot_table(index='Instance', columns='Solver + Approach', values=value_column)
 
-def plot_line_chart_by_solver(df, output_path='linha_makespan.png'):
-    # Pivota o dataframe: index = instancia, colunas = solver+approach, valores = makespan médio
-    pivot = df.pivot_table(index='Instance', columns='Solver + Approach', values='Makespan (avg)')
-    
-    # Ordena as instâncias no eixo x se desejar (opcional)
+    # Ordena instâncias numericamente
     pivot = pivot.reindex(
         sorted(pivot.index, key=lambda name: int(''.join(filter(str.isdigit, name))))
     )
-    
-    # Plota
+
+
+    # Prefixos em ordem desejada
+    prefix_order = ['AS', 'EAS', 'RBAS', 'MMAS', 'ACS', 'greedy']
+
+    def sort_key(label):
+        prefix = next((p for p in prefix_order if label.startswith(p)), '')
+        prefix_index = prefix_order.index(prefix) if prefix in prefix_order else len(prefix_order)
+        return (prefix_index, label)
+
+    # Prepara cores e marcadores
+    labels = sorted(pivot.columns, key=sort_key)
+
+    #labels = sorted(pivot.columns)  # ordena legenda
+    color_map = load_cmap("basel")
+    colors = [color_map(i) for i in range(10)]
+
     plt.figure(figsize=(12, 6))
-    for col in pivot.columns:
-        plt.plot(pivot.index, pivot[col], marker='o', label=col)
-    
-    plt.title('Makespan médio por instância e por abordagem')
+
+    for i, label in enumerate(labels):
+        marker = (
+            's' if label.lower().startswith('greedy') else
+            'd' if label.lower().endswith('iterative') else
+            'o'
+        )
+        plt.plot(
+            pivot.index,
+            pivot[label],
+            label=label,
+            marker=marker,
+            color= '#000000' if label.lower().startswith('greedy') else colors[i % len(colors)]
+        )
+
+    plt.title(title)
     plt.xlabel('Instância')
-    plt.ylabel('Makespan')
+    plt.ylabel(ylabel)
     plt.xticks(rotation=45)
     plt.grid(True, linestyle='--', alpha=0.5)
-    plt.legend(title='Solver + Approach')
+    plt.legend(title='Implementação', loc='best')
     plt.tight_layout()
     plt.savefig(output_path)
     plt.show()
 
-def plot_line_chart(
+
+
+
+def plot_line_chart_old(
     df,
     value_column: str,
     title: str,
@@ -110,7 +105,6 @@ def plot_line_chart(
     plt.tight_layout()
     plt.savefig(output_path)
     plt.show()
-
 
 def plot_metric_with_errorbars(
     df,
@@ -166,47 +160,47 @@ def plot_metric_with_errorbars(
 def plot_charts(df, output_dir, files_base_name):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
-    plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
-    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por solver', 'Makespan', f'{output_dir}/{files_base_name}_makespan')
-    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e solver', 'CPU Time (ms)', f'{output_dir}/{files_base_name}_cputime')
+    #plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
+    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan')
+    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'CPU Time (ms)', f'{output_dir}/{files_base_name}_cputime')
 
-    for instance_name, df_instance in df.groupby('Instance'):
-        safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
+    # for instance_name, df_instance in df.groupby('Instance'):
+    #     safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
         
-        makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
-        plot_metric_with_errorbars(
-            df_instance,
-            metric_prefix='Makespan',
-            color='#998ec3',
-            output_path=makespan_path,
-            title=f'{instance_name} - Makespan (hrs)',
-            #transform=lambda x: x / 3600,
-            # x_order=[
-            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-            # x_order=['greedy-iterative',
-            #     'ASV1-iterative', 'ASV1-parallel',
-            #     'ASV2-iterative', 'ASV2-parallel'
-            #     'ASV3-iterative', 'ASV3-parallel']
-        )
+    #     makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
+    #     plot_metric_with_errorbars(
+    #         df_instance,
+    #         metric_prefix='Makespan',
+    #         color='#998ec3',
+    #         output_path=makespan_path,
+    #         title=f'{instance_name} - Makespan (hrs)',
+    #         #transform=lambda x: x / 3600,
+    #         # x_order=[
+    #         #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+    #         #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+    #         #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+    #         # x_order=['greedy-iterative',
+    #         #     'ASV1-iterative', 'ASV1-parallel',
+    #         #     'ASV2-iterative', 'ASV2-parallel'
+    #         #     'ASV3-iterative', 'ASV3-parallel']
+    #     )
         
-        cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
-        plot_metric_with_errorbars(
-            df_instance,
-            metric_prefix='CPU TIME(ms)',
-            color='#f1a340',
-            output_path=cpu_path,
-            title=f'{instance_name} - CPU TIME',
-            # x_order=[
-            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-            # x_order=['greedy-iterative',
-            #     'ASV1-iterative', 'ASV1-parallel',
-            #     'ASV2-iterative', 'ASV2-parallel'
-            #     'ASV3-iterative', 'ASV3-parallel']
-        )
+    #     cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
+    #     plot_metric_with_errorbars(
+    #         df_instance,
+    #         metric_prefix='CPU TIME(ms)',
+    #         color='#f1a340',
+    #         output_path=cpu_path,
+    #         title=f'{instance_name} - CPU TIME',
+    #         # x_order=[
+    #         #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+    #         #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+    #         #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+    #         # x_order=['greedy-iterative',
+    #         #     'ASV1-iterative', 'ASV1-parallel',
+    #         #     'ASV2-iterative', 'ASV2-parallel'
+    #         #     'ASV3-iterative', 'ASV3-parallel']
+    #     )
 
 def listar_arquivos(dir, extensao):
     arquivos = []
@@ -291,5 +285,5 @@ if __name__ == "__main__":
         print(f'{len(arquivos_benchmark)} arquivos no benchmark {benchmark}\n\n')
         benchmark_data = extrair_metricas(arquivos_benchmark)
         #mover_arquivos_lixeira(arquivos_benchmark, lixeira_dir)
-        benchmark_data.to_csv(os.path.join(output_dir, f'{file_base_name}.xcsv'), index=False, sep=';', decimal=',', float_format='%.2f')
+        benchmark_data.to_csv(os.path.join(output_dir, f'{file_base_name}.csv'), index=False, sep=';', decimal=',', float_format='%.2f')
         plot_charts(benchmark_data, output_dir, file_base_name)
