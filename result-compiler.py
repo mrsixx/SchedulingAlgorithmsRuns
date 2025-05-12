@@ -7,13 +7,29 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pypalettes import load_cmap
 
+def fattahi_rename(pivot):
+    rename_map = {}
+    sfjs_counter = 1
+    mfjs_counter = 1
+    for name in pivot.index:
+        num = int(''.join(filter(str.isdigit, name)))
+        if num <= 10:
+            rename_map[name] = f"SFJS{sfjs_counter}"
+            sfjs_counter += 1
+        else:
+            rename_map[name] = f"MFJS{mfjs_counter}"
+            mfjs_counter += 1
+    
+    return rename_map
+
 
 def plot_line_chart(
     df,
     value_column: str,
     title: str,
     ylabel: str,
-    output_path: str
+    output_path: str,
+    rename_fn
 ):
     # Cria a coluna combinada se não existir
     if 'Solver + Approach' not in df.columns:
@@ -26,6 +42,12 @@ def plot_line_chart(
     pivot = pivot.reindex(
         sorted(pivot.index, key=lambda name: int(''.join(filter(str.isdigit, name))))
     )
+
+    # Cria o mapeamento após a ordenação
+    rename_map = rename_fn(pivot)
+
+    # Aplica o novo rótulo ao eixo X
+    pivot.index = pivot.index.map(rename_map)
 
 
     # Prefixos em ordem desejada
@@ -51,15 +73,22 @@ def plot_line_chart(
             'd' if label.lower().endswith('iterative') else
             'o'
         )
+
+        replaced_label = (
+            'LLM' if label.lower().startswith('greedy') else
+            label.replace("iterative", "i") if label.lower().endswith('iterative') else
+            label.replace("parallel", "p")
+        )
+
         plt.plot(
             pivot.index,
             pivot[label],
-            label=label,
+            label=replaced_label,
             marker=marker,
             color= '#000000' if label.lower().startswith('greedy') else colors[i % len(colors)]
         )
 
-    plt.title(title)
+    # plt.title(title)
     plt.xlabel('Instância')
     plt.ylabel(ylabel)
     plt.xticks(rotation=45)
@@ -70,41 +99,6 @@ def plot_line_chart(
     plt.show()
 
 
-
-
-def plot_line_chart_old(
-    df,
-    value_column: str,
-    title: str,
-    ylabel: str,
-    output_path: str
-):
-    # Cria uma coluna combinada para o pivot
-    if 'Solver + Approach' not in df.columns:
-        df['Solver + Approach'] = df['Solver'] + ' + ' + df['Approach']
-
-    # Pivota: index = instancia, colunas = solver+approach, valores = métrica
-    pivot = df.pivot_table(index='Instance', columns='Solver + Approach', values=value_column)
-
-    # Ordena instâncias numericamente
-    pivot = pivot.reindex(
-        sorted(pivot.index, key=lambda name: int(''.join(filter(str.isdigit, name))))
-    )
-
-    # Plota
-    plt.figure(figsize=(12, 6))
-    for col in pivot.columns:
-        plt.plot(pivot.index, pivot[col], marker='o', label=col)
-
-    plt.title(title)
-    plt.xlabel('Instância')
-    plt.ylabel(ylabel)
-    plt.xticks(rotation=45)
-    plt.grid(True, linestyle='--', alpha=0.5)
-    plt.legend(title='Solver + Approach')
-    plt.tight_layout()
-    plt.savefig(output_path)
-    plt.show()
 
 def plot_metric_with_errorbars(
     df,
@@ -157,12 +151,12 @@ def plot_metric_with_errorbars(
     plt.savefig(output_path)
     plt.close()
 
-def plot_charts(df, output_dir, files_base_name):
+def plot_charts(df, output_dir, files_base_name, rename_fn):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
     #plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
-    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan')
-    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'CPU Time (ms)', f'{output_dir}/{files_base_name}_cputime')
+    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn)
+    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
 
     # for instance_name, df_instance in df.groupby('Instance'):
     #     safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
@@ -269,13 +263,26 @@ def mover_arquivos_lixeira(arquivos, lixeira_dir):
         os.makedirs(os.path.dirname(new_file), exist_ok=True)
         shutil.move(arquivo['path'], new_file)
 
-#/workspaces/SchedulingAlgorithmsRuns/050525-sandbox/AS
+
+def replace_fn_factory(name):
+    if name == 'fattahi':
+        return fattahi_rename
+    
+    def identity(pivot):
+        rename_map = {}
+        for name in pivot.index:
+            rename_map[name] = name
+        return rename_map
+    
+    return identity
 if __name__ == "__main__":
-    if(len(sys.argv) <= 2):
+    if(len(sys.argv) <= 3):
         raise Exception("Diretório com resultados é obrigatório")
     
     file = sys.argv[1]
     file_base_name = sys.argv[2]
+
+    replace_fn = replace_fn_factory(sys.argv[3])
     results_dir = f'/workspaces/SchedulingAlgorithmsRuns/{file}'
     arquivos = listar_arquivos(results_dir, '.csv')
     output_dir = f'{results_dir}/output'
@@ -286,4 +293,6 @@ if __name__ == "__main__":
         benchmark_data = extrair_metricas(arquivos_benchmark)
         #mover_arquivos_lixeira(arquivos_benchmark, lixeira_dir)
         benchmark_data.to_csv(os.path.join(output_dir, f'{file_base_name}.csv'), index=False, sep=';', decimal=',', float_format='%.2f')
-        plot_charts(benchmark_data, output_dir, file_base_name)
+        plot_charts(benchmark_data, output_dir, file_base_name, replace_fn)
+    
+    print(f'resultados salvos em {output_dir}')
