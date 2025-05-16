@@ -22,14 +22,29 @@ def fattahi_rename(pivot):
     
     return rename_map
 
+def brandimarte_rename(pivot):
+    rename_map = {}
+    for name in pivot.index:
+        num = int(''.join(filter(str.isdigit, name)))
+        rename_map[name] = f"MK{num}"
+    
+    return rename_map
 
+def ribeiro_rename(pivot):
+    rename_map = {}
+    for name in pivot.index:
+        num = int(''.join(filter(str.isdigit, name)))
+        rename_map[name] = f"ECALC{num}"
+    
+    return rename_map
 def plot_line_chart(
     df,
     value_column: str,
     title: str,
     ylabel: str,
     output_path: str,
-    rename_fn
+    rename_fn,
+    transform=lambda x: x,
 ):
     # Cria a coluna combinada se não existir
     if 'Solver + Approach' not in df.columns:
@@ -82,7 +97,7 @@ def plot_line_chart(
 
         plt.plot(
             pivot.index,
-            pivot[label],
+            pivot[label].map(transform),
             label=replaced_label,
             marker=marker,
             color= '#000000' if label.lower().startswith('greedy') else colors[i % len(colors)]
@@ -151,11 +166,11 @@ def plot_metric_with_errorbars(
     plt.savefig(output_path)
     plt.close()
 
-def plot_charts(df, output_dir, files_base_name, rename_fn):
+def plot_charts(df, output_dir, files_base_name, rename_fn, transform_fn):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
     #plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
-    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn)
+    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
     plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
 
     # for instance_name, df_instance in df.groupby('Instance'):
@@ -265,16 +280,23 @@ def mover_arquivos_lixeira(arquivos, lixeira_dir):
 
 
 def replace_fn_factory(name):
+    identity_transform = lambda x: x
+    hour_transform = lambda x: x / 3600
     if name == 'fattahi':
-        return fattahi_rename
+        return fattahi_rename,identity_transform
+    if name == 'brandimarte':
+        return brandimarte_rename,identity_transform
+    if name == 'ribeiro':
+        return ribeiro_rename,hour_transform
     
+
     def identity(pivot):
         rename_map = {}
         for name in pivot.index:
             rename_map[name] = name
         return rename_map
     
-    return identity
+    return identity,identity_transform
 if __name__ == "__main__":
     if(len(sys.argv) <= 3):
         raise Exception("Diretório com resultados é obrigatório")
@@ -282,7 +304,7 @@ if __name__ == "__main__":
     file = sys.argv[1]
     file_base_name = sys.argv[2]
 
-    replace_fn = replace_fn_factory(sys.argv[3])
+    replace_fn,transform_fn = replace_fn_factory(sys.argv[3])
     results_dir = f'/workspaces/SchedulingAlgorithmsRuns/{file}'
     arquivos = listar_arquivos(results_dir, '.csv')
     output_dir = f'{results_dir}/output'
@@ -293,6 +315,6 @@ if __name__ == "__main__":
         benchmark_data = extrair_metricas(arquivos_benchmark)
         #mover_arquivos_lixeira(arquivos_benchmark, lixeira_dir)
         benchmark_data.to_csv(os.path.join(output_dir, f'{file_base_name}.csv'), index=False, sep=';', decimal=',', float_format='%.2f')
-        plot_charts(benchmark_data, output_dir, file_base_name, replace_fn)
+        plot_charts(benchmark_data, output_dir, file_base_name, replace_fn,transform_fn)
     
     print(f'resultados salvos em {output_dir}')
