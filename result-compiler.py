@@ -30,6 +30,14 @@ def brandimarte_rename(pivot):
     
     return rename_map
 
+def paulli_rename(pivot):
+    rename_map = {}
+    for name in pivot.index:
+        num = int(''.join(filter(str.isdigit, name)))
+        rename_map[name] = f"DP{num}a"
+    
+    return rename_map
+
 def ribeiro_rename(pivot):
     rename_map = {}
     for name in pivot.index:
@@ -288,7 +296,8 @@ def replace_fn_factory(name):
         return brandimarte_rename,identity_transform
     if name == 'ribeiro':
         return ribeiro_rename,hour_transform
-    
+    if name == 'paulli':
+        return paulli_rename, identity_transform
 
     def identity(pivot):
         rename_map = {}
