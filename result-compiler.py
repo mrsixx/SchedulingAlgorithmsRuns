@@ -45,6 +45,7 @@ def ribeiro_rename(pivot):
         rename_map[name] = f"ECALC{num}"
     
     return rename_map
+
 def plot_line_chart(
     df,
     value_column: str,
@@ -98,7 +99,7 @@ def plot_line_chart(
         )
 
         replaced_label = (
-            'LLM' if label.lower().startswith('greedy') else
+            'LLM-FJSSP' if label.lower().startswith('greedy') else
             label.replace("iterative", "i") if label.lower().endswith('iterative') else
             label.replace("parallel", "p")
         )
@@ -178,46 +179,46 @@ def plot_charts(df, output_dir, files_base_name, rename_fn, transform_fn):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
     #plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
-    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
-    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
+    #plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
+    #plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
 
-    # for instance_name, df_instance in df.groupby('Instance'):
-    #     safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
+    for instance_name, df_instance in df.groupby('Instance'):
+        safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
         
-    #     makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
-    #     plot_metric_with_errorbars(
-    #         df_instance,
-    #         metric_prefix='Makespan',
-    #         color='#998ec3',
-    #         output_path=makespan_path,
-    #         title=f'{instance_name} - Makespan (hrs)',
-    #         #transform=lambda x: x / 3600,
-    #         # x_order=[
-    #         #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-    #         #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-    #         #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-    #         # x_order=['greedy-iterative',
-    #         #     'ASV1-iterative', 'ASV1-parallel',
-    #         #     'ASV2-iterative', 'ASV2-parallel'
-    #         #     'ASV3-iterative', 'ASV3-parallel']
-    #     )
+        makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
+        plot_metric_with_errorbars(
+            df_instance,
+            metric_prefix='Makespan',
+            color='#998ec3',
+            output_path=makespan_path,
+            title=f'{instance_name} - Makespan (hrs)',
+            transform=lambda x: x / 3600,
+            # x_order=[
+            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+            # x_order=['greedy-iterative',
+            #     'ASV1-iterative', 'ASV1-parallel',
+            #     'ASV2-iterative', 'ASV2-parallel'
+            #     'ASV3-iterative', 'ASV3-parallel']
+        )
         
-    #     cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
-    #     plot_metric_with_errorbars(
-    #         df_instance,
-    #         metric_prefix='CPU TIME(ms)',
-    #         color='#f1a340',
-    #         output_path=cpu_path,
-    #         title=f'{instance_name} - CPU TIME',
-    #         # x_order=[
-    #         #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-    #         #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-    #         #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-    #         # x_order=['greedy-iterative',
-    #         #     'ASV1-iterative', 'ASV1-parallel',
-    #         #     'ASV2-iterative', 'ASV2-parallel'
-    #         #     'ASV3-iterative', 'ASV3-parallel']
-    #     )
+        cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
+        plot_metric_with_errorbars(
+            df_instance,
+            metric_prefix='CPU TIME(ms)',
+            color='#f1a340',
+            output_path=cpu_path,
+            title=f'{instance_name} - CPU TIME',
+            # x_order=[
+            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+            # x_order=['greedy-iterative',
+            #     'ASV1-iterative', 'ASV1-parallel',
+            #     'ASV2-iterative', 'ASV2-parallel'
+            #     'ASV3-iterative', 'ASV3-parallel']
+        )
 
 def listar_arquivos(dir, extensao):
     arquivos = []
