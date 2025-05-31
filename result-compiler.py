@@ -123,7 +123,6 @@ def plot_line_chart(
     plt.show()
 
 
-
 def plot_metric_with_errorbars(
     df,
     metric_prefix, 
@@ -179,46 +178,174 @@ def plot_charts(df, output_dir, files_base_name, rename_fn, transform_fn):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
     #plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
-    #plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
-    #plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
+    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
+    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
 
     for instance_name, df_instance in df.groupby('Instance'):
         safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
         
         makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
-        plot_metric_with_errorbars(
-            df_instance,
-            metric_prefix='Makespan',
-            color='#998ec3',
-            output_path=makespan_path,
-            title=f'{instance_name} - Makespan (hrs)',
-            transform=lambda x: x / 3600,
-            # x_order=[
-            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-            # x_order=['greedy-iterative',
-            #     'ASV1-iterative', 'ASV1-parallel',
-            #     'ASV2-iterative', 'ASV2-parallel'
-            #     'ASV3-iterative', 'ASV3-parallel']
-        )
-        
+        # plot_metric_with_errorbars(
+        #     df_instance,
+        #     metric_prefix='Makespan',
+        #     color='#998ec3',
+        #     output_path=makespan_path,
+        #     title=f'{instance_name} - Makespan (hrs)',
+        #     transform=lambda x: x / 3600,
+        #     # x_order=[
+        #     #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+        #     #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+        #     #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+        #     # x_order=['greedy-iterative',
+        #     #     'ASV1-iterative', 'ASV1-parallel',
+        #     #     'ASV2-iterative', 'ASV2-parallel'
+        #     #     'ASV3-iterative', 'ASV3-parallel']
+        # )
+        # plot_bars_with_style(
+        #     df_instance,
+        #     metric_prefix='Makespan',
+        #     output_path=makespan_path,
+        #     title=f'{instance_name} - Makespan (hrs)',
+        #     transform=lambda x: x / 3600,
+        # )
+
         cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
-        plot_metric_with_errorbars(
-            df_instance,
-            metric_prefix='CPU TIME(ms)',
-            color='#f1a340',
-            output_path=cpu_path,
-            title=f'{instance_name} - CPU TIME',
-            # x_order=[
-            #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-            #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-            #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-            # x_order=['greedy-iterative',
-            #     'ASV1-iterative', 'ASV1-parallel',
-            #     'ASV2-iterative', 'ASV2-parallel'
-            #     'ASV3-iterative', 'ASV3-parallel']
+        # plot_bars_with_style(
+        #     df_instance,
+        #     metric_prefix='CPU TIME(ms)',
+        #     output_path=cpu_path,
+        #     title=f'{instance_name} - CPU TIME',
+        # )
+        # plot_metric_with_errorbars(
+        #     df_instance,
+        #     metric_prefix='CPU TIME(ms)',
+        #     color='#f1a340',
+        #     output_path=cpu_path,
+        #     title=f'{instance_name} - CPU TIME',
+        #     # x_order=[
+        #     #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+        #     #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+        #     #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+        #     # x_order=['greedy-iterative',
+        #     #     'ASV1-iterative', 'ASV1-parallel',
+        #     #     'ASV2-iterative', 'ASV2-parallel'
+        #     #     'ASV3-iterative', 'ASV3-parallel']
+        # )
+
+
+def plot_bars_with_style(
+    df,
+    metric_prefix,
+    output_path,
+    title,
+    transform=lambda x: x,
+    x_order=None
+):
+    """
+    Gera gráfico de barras com erro, com estética consistente com plot_line_chart.
+    """
+
+    # Aplica ordenação se fornecida
+    if x_order is not None:
+        df['Solver + Approach'] = pd.Categorical(df['Solver + Approach'], categories=x_order, ordered=True)
+        df = df.sort_values(by='Solver + Approach')
+    else:
+        df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
+
+        # Ordenação com base no prefixo
+        prefix_order = ['AS', 'EAS', 'RBAS', 'MMAS', 'ACS', 'greedy']
+        def sort_key(label):
+            prefix = next((p for p in prefix_order if label.startswith(p)), '')
+            prefix_index = prefix_order.index(prefix) if prefix in prefix_order else len(prefix_order)
+            return (prefix_index, label)
+
+        df = df.sort_values(by='Solver + Approach', key=lambda col: col.map(sort_key))
+
+    # Define colunas da métrica
+    avg_col = f'{metric_prefix} (avg)'
+    min_col = f'{metric_prefix} (min)'
+    max_col = f'{metric_prefix} (max)'
+
+    # Valores transformados
+    avg = transform(df[avg_col])
+    err_lower = transform(df[avg_col] - df[min_col])
+    err_upper = transform(df[max_col] - df[avg_col])
+    errors = [err_lower, err_upper]
+
+    # Estética
+    color_map = load_cmap("basel")
+    colors = [color_map(i) for i in range(10)]
+
+    labels = df['Solver + Approach'].tolist()
+
+    # Renomeia os rótulos conforme regras
+    def rename_label(label):
+        if label.lower().startswith('greedy'):
+            return 'LLM-FJSSP'
+        if label.lower().endswith('iterative'):
+            return label.replace('iterative', 'i')
+        return label.replace('parallel', 'p')
+
+    renamed_labels = [rename_label(l) for l in labels]
+
+    plt.figure(figsize=(12, 6))
+    x = range(len(df))
+    error_kw = dict(
+        capsize=5,
+        capthick=1,
+        ecolor='black',     # cor da barra de erro
+        alpha=0.3,           # opacidade da barra de erro (0 = invisível, 1 = opaco)
+    )
+
+    bars = plt.bar(
+        x,
+        avg,
+        yerr=errors,
+        capsize=5,
+        error_kw=error_kw,
+        color=[
+            '#000000' if 'greedy' in l.lower() else colors[i % len(colors)]
+            for i, l in enumerate(labels)
+        ], alpha=0.7
+    )
+    plt.xticks(x, renamed_labels, rotation=45, ha='right')
+    plt.ylabel(metric_prefix)
+    #if 'makespan' in output_path:
+    if False:
+        current_makespan = None
+        if 'ribeiro1' in output_path.lower():
+            current_makespan = transform(167077843)
+        elif 'ribeiro2' in output_path.lower():
+            current_makespan = transform(4118161888)
+        else:#ribeiro3
+            current_makespan = transform(6758432125)
+            
+        plt.axhline(
+            y=current_makespan,                 # valor no eixo y onde a linha será traçada
+            color='red',           # cor da linha
+            linestyle='--',        # linha tracejada (ou '-' para linha contínua)
+            linewidth=1.5,         # espessura da linha
+            label='Referência'      # para incluir na legenda
         )
+    #plt.title(title)
+
+    for i, bar in enumerate(bars):
+        height = bar.get_height()
+        plt.text(
+            bar.get_x() + bar.get_width() / 2,
+            (height / 4) + 1,
+            f'{height:,.2f}'.replace(",", "X").replace(".", ",").replace("X", "."),
+            ha='center',
+            va='bottom',
+            fontsize=9,
+            color='#ffffff' if renamed_labels[i].lower().startswith('llm') and 'makespan' in output_path else '#000000'
+        )
+
+    plt.grid(True, linestyle='--', alpha=0.2)
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.close()
+
 
 def listar_arquivos(dir, extensao):
     arquivos = []
