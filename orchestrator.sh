@@ -23,6 +23,10 @@ echo "iniciando compilação dos resultados"
 # python3 result-compiler.py ant-battle-royale/090525/3_DPpaulli/V2 3_DPpaulli-V2 paulli
 # python3 result-compiler.py ant-battle-royale/090525/3_DPpaulli/V3 3_DPpaulli-V3 paulli
 
-python3 result-compiler.py ant-battle-royale/30052025/6_Fattahi/V0 6_Fattahi-V0 fattahi
-python3 result-compiler.py ant-battle-royale/30052025/6_Fattahi/V1 6_Fattahi-V1 fattahi
+# python3 result-compiler.py ant-battle-royale/30052025/6_Fattahi/V0 6_Fattahi-V0 fattahi
+# python3 result-compiler.py ant-battle-royale/30052025/6_Fattahi/V1 6_Fattahi-V1 fattahi
+
+
+python3 result-compiler.py ant-battle-royale/30052025/2a_Hurink_sdata/V2 2a_Hurink_sdata-V2 fattahi
+python3 result-compiler.py ant-battle-royale/30052025/2a_Hurink_sdata/V3 2a_Hurink_sdata-V3 fattahi
 echo "compilação finalizada"
