@@ -7,6 +7,76 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pypalettes import load_cmap
 
+def gaps(
+    output_path: str,
+):
+    # Dados fictícios: substitua pelos seus reais
+    conjuntos = ['Fattahi et al.', 'Brandimarte', 'Dauzère-Pérès e Paulli', 'Hurink et al. (sdata)', 'Hurink et al. (vdata)']
+    algoritmos = ['V0', 'V1', 'V2', 'V3', 'LLM-FJSSP']
+
+    # Cada linha representa os valores de gap percentual médio para um algoritmo em cada conjunto
+    gaps = {
+        'V0': [59.26, 164.87, None, None, None],
+        'V1': [53.07, 160.74, None, None, None],
+        'V2': [28.51, 93.08, 101.43, 64.38, 96.29],
+        'V3': [28.78, 92.89, 101.58, 64.16, 96.31],
+        'LLM-FJSSP': [67.96, 215.11, 235.26, 171.38, 218.99],
+    }
+
+    marcadores = {
+    'V0': '^',
+    'V1': 'D',
+    'V2': 'd',
+    'V3': '.',
+    'LLM-FJSSP': 's',
+}
+
+    # Cores consistentes com os gráficos anteriores
+    cores = {
+        'V0': '#1f77b4',     # azul escuro
+        'V1': '#2ca02c',     # verde
+        'V2': '#ff7f0e',     # laranja
+        'V3': '#bcbd22',    # verde oliva
+        'LLM-FJSSP': 'black'
+    }
+    color_map = load_cmap("basel")
+    colors = [color_map(i) for i in range(4)]
+
+    plt.figure(figsize=(10, 6))
+
+    for i, alg in enumerate(algoritmos):
+        plt.plot(
+            conjuntos,
+            gaps[alg],
+            label=alg,
+            color='#000000' if alg.lower().startswith('llm') else colors[i % len(colors)],
+            marker= marcadores[alg],
+            #linewidth=5 if alg.lower().startswith('v2') else 2,
+            linestyle='-.' if alg.lower().startswith('v2') else '--',
+            markersize=8
+        )
+
+
+    #plt.ylim(bottom=0)
+    
+    # plt.title(title)
+    plt.ylabel('Gap médio (%)')
+    plt.xticks(rotation=45)
+    plt.grid(True, linestyle='--', alpha=0.5)
+    plt.legend(title='Heurística', loc='best')
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.show()
+
+
+def lawrence_rename(pivot):
+    rename_map = {}
+    for name in pivot.index:
+        num = int(''.join(filter(str.isdigit, name)))
+        rename_map[name] = f"la{num-3}"
+
+    return rename_map
+
 def fattahi_rename(pivot):
     rename_map = {}
     sfjs_counter = 1
@@ -87,7 +157,8 @@ def plot_line_chart(
 
     #labels = sorted(pivot.columns)  # ordena legenda
     color_map = load_cmap("basel")
-    colors = [color_map(i) for i in range(10)]
+    #colors = [color_map(i) for i in range(10)]
+    colors = [color_map(i) for i in [5,7,8,9]]
 
     plt.figure(figsize=(12, 6))
 
@@ -426,6 +497,8 @@ def replace_fn_factory(name):
         return ribeiro_rename,hour_transform
     if name == 'paulli':
         return paulli_rename, identity_transform
+    if name == 'lawrence':
+        return lawrence_rename, identity_transform
 
     def identity(pivot):
         rename_map = {}
@@ -434,7 +507,13 @@ def replace_fn_factory(name):
         return rename_map
     
     return identity,identity_transform
+
 if __name__ == "__main__":
+    gaps('/workspaces/SchedulingAlgorithmsRuns/gaps.png')
+    sys.exit()
+
+
+if __name__ == "a__main__":
     if(len(sys.argv) <= 3):
         raise Exception("Diretório com resultados é obrigatório")
     

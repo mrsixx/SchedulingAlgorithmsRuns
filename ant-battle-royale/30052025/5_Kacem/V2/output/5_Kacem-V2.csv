@@ -1,0 +1,23 @@
+Instance;Approach;Solver;Makespan (min);Makespan (avg);Makespan (max);Makespan (std);CPU TIME(ms) (min);CPU TIME(ms) (avg);CPU TIME(ms) (max);CPU TIME(ms) (std)
+Kacem1;iterative;greedy;16;16,00;16;0,00;0;0,00;0;0,00
+Kacem1;iterative;RBASV2;12;12,70;15;0,84;8;18,30;29;6,94
+Kacem1;parallel;MMASV2;12;13,90;16;1,18;7;16,73;32;7,61
+Kacem1;iterative;MMASV2;11;13,90;17;1,42;7;16,93;37;8,42
+Kacem1;iterative;EASV2;12;13,03;17;1,27;7;11,53;23;3,99
+Kacem1;iterative;ASV2;11;12,43;15;1,04;8;14,17;30;4,68
+Kacem1;parallel;EASV2;11;12,83;16;1,34;6;11,70;38;5,63
+Kacem1;parallel;ACSV2;11;12,00;13;0,26;10;15,10;31;4,37
+Kacem1;parallel;ASV2;11;12,77;16;1,17;7;11,63;32;4,82
+Kacem1;iterative;ACSV2;12;12,07;13;0,25;16;25,97;51;7,69
+Kacem1;parallel;RBASV2;11;12,40;15;0,89;8;18,73;43;7,67
+Kacem2;parallel;RBASV2;13;15,97;19;1,35;24;84,93;202;49,58
+Kacem2;iterative;MMASV2;19;21,47;25;1,81;37;93,33;328;61,03
+Kacem2;iterative;greedy;22;22,00;22;0,00;0;0,00;0;0,00
+Kacem2;parallel;ACSV2;14;16,07;19;1,46;32;75,57;150;28,52
+Kacem2;parallel;MMASV2;19;22,20;25;1,71;35;70,13;177;28,34
+Kacem2;iterative;ACSV2;13;16,00;20;1,64;42;103,33;348;65,02
+Kacem2;iterative;EASV2;13;16,60;23;2,03;47;96,67;284;64,06
+Kacem2;iterative;RBASV2;13;15,47;18;1,17;51;119,73;335;71,73
+Kacem2;parallel;EASV2;13;15,53;19;1,63;32;66,83;141;26,17
+Kacem2;parallel;ASV2;14;15,03;17;0,93;25;74,50;146;27,52
+Kacem2;iterative;ASV2;13;14,70;17;1,06;59;108,13;345;60,91
