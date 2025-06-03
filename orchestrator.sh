@@ -28,11 +28,15 @@ echo "iniciando compilação dos resultados"
 # python3 result-compiler.py ant-battle-royale/30052025/6_Fattahi/V1 6_Fattahi-V1 fattahi
 
 
-#python3 result-compiler.py ant-battle-royale/30052025/2a_Hurink_sdata/V2/Lawrence 2a_Hurink_sdata-V2 lawrence
-#python3 result-compiler.py ant-battle-royale/30052025/2a_Hurink_sdata/V3/Lawrence 2a_Hurink_sdata-V3 lawrence
-#python3 result-compiler.py ant-battle-royale/30052025/2d_Hurink_vdata/V2/Lawrence 2d_Hurink_vdata-V2 lawrence
-#python3 result-compiler.py ant-battle-royale/30052025/2d_Hurink_vdata/V3/Lawrence 2d_Hurink_vdata-V3 lawrence
+# python3 result-compiler.py ant-battle-royale/30052025/2a_Hurink_sdata/V2/Lawrence 2a_Hurink_sdata-V2 lawrence
+# python3 result-compiler.py ant-battle-royale/30052025/2a_Hurink_sdata/V3/Lawrence 2a_Hurink_sdata-V3 lawrence
+# python3 result-compiler.py ant-battle-royale/30052025/2d_Hurink_vdata/V2/Lawrence 2d_Hurink_vdata-V2 lawrence
+# python3 result-compiler.py ant-battle-royale/30052025/2d_Hurink_vdata/V3/Lawrence 2d_Hurink_vdata-V3 lawrence
 
 #python3 result-compiler.py ant-battle-royale/30052025/5_Kacem/V2 5_Kacem-V2 kacem
 #python3 result-compiler.py ant-battle-royale/30052025/5_Kacem/V3 5_Kacem-V3 kacem
+
+python3 result-compiler.py RibeiroSuzarte/1-v2 RibeiroSuzarte ribeiro
+
+
 echo "compilação finalizada"

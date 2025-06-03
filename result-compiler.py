@@ -73,7 +73,7 @@ def lawrence_rename(pivot):
     rename_map = {}
     for name in pivot.index:
         num = int(''.join(filter(str.isdigit, name)))
-        rename_map[name] = f"la{num-3}"
+        rename_map[name] = f"la{num-3}" if num-3 > 9 else f"la0{num-3}"
 
     return rename_map
 
@@ -249,8 +249,8 @@ def plot_charts(df, output_dir, files_base_name, rename_fn, transform_fn):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
     #plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
-    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
-    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
+    #plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
+    #plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
 
     for instance_name, df_instance in df.groupby('Instance'):
         safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
@@ -272,21 +272,21 @@ def plot_charts(df, output_dir, files_base_name, rename_fn, transform_fn):
         #     #     'ASV2-iterative', 'ASV2-parallel'
         #     #     'ASV3-iterative', 'ASV3-parallel']
         # )
-        # plot_bars_with_style(
-        #     df_instance,
-        #     metric_prefix='Makespan',
-        #     output_path=makespan_path,
-        #     title=f'{instance_name} - Makespan (hrs)',
-        #     transform=lambda x: x / 3600,
-        # )
+        plot_bars_with_style(
+            df_instance,
+            metric_prefix='Makespan',
+            output_path=makespan_path,
+            title=f'{instance_name} - Makespan (hrs)',
+            transform=lambda x: x / 3600,
+        )
 
         cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
-        # plot_bars_with_style(
-        #     df_instance,
-        #     metric_prefix='CPU TIME(ms)',
-        #     output_path=cpu_path,
-        #     title=f'{instance_name} - CPU TIME',
-        # )
+        plot_bars_with_style(
+            df_instance,
+            metric_prefix='CPU TIME(ms)',
+            output_path=cpu_path,
+            title=f'{instance_name} - CPU TIME',
+        )
         # plot_metric_with_errorbars(
         #     df_instance,
         #     metric_prefix='CPU TIME(ms)',
@@ -508,12 +508,12 @@ def replace_fn_factory(name):
     
     return identity,identity_transform
 
-if __name__ == "__main__":
+if __name__ == "a__main__":
     gaps('/workspaces/SchedulingAlgorithmsRuns/gaps.png')
     sys.exit()
 
 
-if __name__ == "a__main__":
+if __name__ == "__main__":
     if(len(sys.argv) <= 3):
         raise Exception("Diretório com resultados é obrigatório")
     
