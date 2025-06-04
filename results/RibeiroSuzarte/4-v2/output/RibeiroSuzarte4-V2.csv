@@ -1,0 +1,4 @@
+Instance;Approach;Solver;Makespan (min);Makespan (avg);Makespan (max);Makespan (std);CPU TIME(ms) (min);CPU TIME(ms) (avg);CPU TIME(ms) (max);CPU TIME(ms) (std)
+4RibeiroSuzarte4;parallel;ACSV2;13395777;13597853,77;13756126;95177,35;71985;106951,97;181008;28454,14
+4RibeiroSuzarte4;iterative;ACSV2;13286868;13615499,20;13811707;118425,14;241799;314191,83;488612;69668,56
+4RibeiroSuzarte4;iterative;greedy;13748015;13748015,00;13748015;0,00;703;739,83;802;27,00

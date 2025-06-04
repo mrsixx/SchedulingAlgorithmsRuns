@@ -1,0 +1,3912 @@
+[06/01/2025 12:50:35 PM] ORCHESTRATOR: 
+
+
+Executando instâncias de / (1/2)...
+
+[06/01/2025 12:50:35 PM] ORCHESTRATOR: 
+
+
+Executando instâncias de Behnke_m40 (2/2)...
+
+[06/01/2025 12:50:35 PM] ORCHESTRATOR: Instância 1/20...
+
+[06/01/2025 12:50:35 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:50:35 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:50:35] Processador lógico: 12
+[01/06/2025 12:50:35] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:50:35] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:50:35] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke21.fjs
+[01/06/2025 12:50:35] Jobs: 10; Operations: 50; Machines: 40
+[01/06/2025 12:50:35] Trivial Upper bound: 1436
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0005279.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 2/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004843.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 3/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004781.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 4/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004543.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 5/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004911.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 6/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004764.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 7/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004872.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 8/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004569.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 9/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0005173.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 10/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004697.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 11/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0005265.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 12/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004518.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 13/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004811.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 14/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004685.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 15/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004600.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 16/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004726.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 17/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0005296.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 18/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004473.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 19/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004842.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 20/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004684.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 21/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004787.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 22/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0005344.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 23/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004974.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 24/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004731.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 25/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004711.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 26/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004531.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 27/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004745.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 28/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004778.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 29/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0005191.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+Run 30/30
+[01/06/2025 12:50:35] Starting LLM algorithm
+[01/06/2025 12:50:35] Solution found after 00:00:00.0004764.
+[01/06/2025 12:50:35] 
+Finishing LLM execution...
+Makespan: 112
+|--------------------------------------------------------------------------|
+[06/01/2025 12:50:35 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:50:42 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:07.275403...
+
+[06/01/2025 12:50:42 PM] ORCHESTRATOR: Instância 2/20...
+
+[06/01/2025 12:50:42 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:50:42 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:50:42] Processador lógico: 12
+[01/06/2025 12:50:42] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:50:42] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:50:42] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke26.fjs
+[01/06/2025 12:50:42] Jobs: 20; Operations: 100; Machines: 40
+[01/06/2025 12:50:42] Trivial Upper bound: 2880
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0014336.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 2/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0014389.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 3/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013839.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 4/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0014056.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 5/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013874.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 6/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013183.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 7/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013408.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 8/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0014208.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 9/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013357.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 10/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013796.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 11/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0014475.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 12/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013312.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 13/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013644.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 14/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0013581.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 15/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0024670.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 16/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012696.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 17/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012413.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 18/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012293.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 19/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012298.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 20/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0011868.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 21/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012268.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 22/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0011899.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 23/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012954.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 24/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012308.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 25/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012190.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 26/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012015.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 27/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012166.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 28/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012257.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 29/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0011887.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+Run 30/30
+[01/06/2025 12:50:42] Starting LLM algorithm
+[01/06/2025 12:50:42] Solution found after 00:00:00.0012186.
+[01/06/2025 12:50:42] 
+Finishing LLM execution...
+Makespan: 162
+|--------------------------------------------------------------------------|
+[06/01/2025 12:50:42 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:50:49 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:14.565346...
+
+[06/01/2025 12:50:49 PM] ORCHESTRATOR: Instância 3/20...
+
+[06/01/2025 12:50:49 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:50:49 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:50:50] Processador lógico: 12
+[01/06/2025 12:50:50] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:50:50] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:50:50] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke33.fjs
+[01/06/2025 12:50:50] Jobs: 50; Operations: 250; Machines: 40
+[01/06/2025 12:50:50] Trivial Upper bound: 7210
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0089839.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 2/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0070456.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 3/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0065287.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 4/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0064244.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 5/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0074746.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 6/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0068234.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 7/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0065450.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 8/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0066210.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 9/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0071049.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 10/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0064967.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 11/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0063061.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 12/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0063305.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 13/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0070192.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 14/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0066405.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 15/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0063618.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 16/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0063805.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 17/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0066435.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 18/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062908.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 19/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062781.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 20/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0063415.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 21/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0064241.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 22/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062712.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 23/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062736.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 24/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062809.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 25/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062891.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 26/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0064767.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 27/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062971.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 28/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0063870.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 29/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0062857.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+Run 30/30
+[01/06/2025 12:50:50] Starting LLM algorithm
+[01/06/2025 12:50:50] Solution found after 00:00:00.0065250.
+[01/06/2025 12:50:50] 
+Finishing LLM execution...
+Makespan: 285
+|--------------------------------------------------------------------------|
+[06/01/2025 12:50:50 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:50:56 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:21.570750...
+
+[06/01/2025 12:50:56 PM] ORCHESTRATOR: Instância 4/20...
+
+[06/01/2025 12:50:56 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:50:56 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:50:57] Processador lógico: 12
+[01/06/2025 12:50:57] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:50:57] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:50:57] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke29.fjs
+[01/06/2025 12:50:57] Jobs: 20; Operations: 100; Machines: 40
+[01/06/2025 12:50:57] Trivial Upper bound: 2873
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0016649.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 2/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014706.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 3/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014275.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 4/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013950.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 5/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0015573.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 6/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013768.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 7/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013625.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 8/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014230.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 9/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013756.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 10/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014444.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 11/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013987.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 12/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014206.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 13/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0015020.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 14/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013773.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 15/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0025269.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 16/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014125.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 17/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013360.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 18/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0012917.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 19/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013441.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 20/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013587.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 21/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014745.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 22/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0015972.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 23/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013379.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 24/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0012908.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 25/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0012692.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 26/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013078.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 27/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0014029.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 28/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0012545.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 29/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0013761.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+Run 30/30
+[01/06/2025 12:50:57] Starting LLM algorithm
+[01/06/2025 12:50:57] Solution found after 00:00:00.0012723.
+[01/06/2025 12:50:57] 
+Finishing LLM execution...
+Makespan: 151
+|--------------------------------------------------------------------------|
+[06/01/2025 12:50:57 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:04 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:28.964374...
+
+[06/01/2025 12:51:04 PM] ORCHESTRATOR: Instância 5/20...
+
+[06/01/2025 12:51:04 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:04 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:04] Processador lógico: 12
+[01/06/2025 12:51:04] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:04] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:04] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke36.fjs
+[01/06/2025 12:51:04] Jobs: 100; Operations: 500; Machines: 40
+[01/06/2025 12:51:04] Trivial Upper bound: 14534
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0253083.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 2/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0254204.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 3/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0250165.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 4/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0250591.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 5/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0252897.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 6/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0249734.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 7/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0249672.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 8/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0251178.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 9/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0228236.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 10/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0123220.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 11/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0126178.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 12/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0126740.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 13/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0125687.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 14/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0126096.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 15/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0126396.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 16/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0127260.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 17/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0126989.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 18/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0128345.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 19/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0123531.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 20/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0127765.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 21/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:04] Solution found after 00:00:00.0126705.
+[01/06/2025 12:51:04] 
+Finishing LLM execution...
+Makespan: 437
+Run 22/30
+[01/06/2025 12:51:04] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0126896.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 23/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0128174.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 24/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0126460.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 25/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0126011.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 26/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0084028.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 27/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0081231.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 28/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0076528.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 29/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0078017.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+Run 30/30
+[01/06/2025 12:51:05] Starting LLM algorithm
+[01/06/2025 12:51:05] Solution found after 00:00:00.0077580.
+[01/06/2025 12:51:05] 
+Finishing LLM execution...
+Makespan: 437
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:05 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:11 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:36.298756...
+
+[06/01/2025 12:51:11 PM] ORCHESTRATOR: Instância 6/20...
+
+[06/01/2025 12:51:11 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:11 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:11] Processador lógico: 12
+[01/06/2025 12:51:11] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:11] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:11] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke25.fjs
+[01/06/2025 12:51:11] Jobs: 10; Operations: 50; Machines: 40
+[01/06/2025 12:51:11] Trivial Upper bound: 1449
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0005346.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 2/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004870.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 3/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0005090.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 4/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004567.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 5/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0005183.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 6/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004639.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 7/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004790.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 8/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004688.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 9/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004777.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 10/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004647.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 11/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0005098.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 12/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004607.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 13/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0005365.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 14/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004713.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 15/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004697.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 16/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004669.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 17/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0005028.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 18/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004671.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 19/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004870.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 20/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004568.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 21/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004993.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 22/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004651.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 23/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004656.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 24/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004552.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 25/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004571.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 26/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004627.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 27/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004909.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 28/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004681.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 29/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004898.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+Run 30/30
+[01/06/2025 12:51:11] Starting LLM algorithm
+[01/06/2025 12:51:11] Solution found after 00:00:00.0004688.
+[01/06/2025 12:51:11] 
+Finishing LLM execution...
+Makespan: 113
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:11 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:18 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:43.104222...
+
+[06/01/2025 12:51:18 PM] ORCHESTRATOR: Instância 7/20...
+
+[06/01/2025 12:51:18 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:18 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:18] Processador lógico: 12
+[01/06/2025 12:51:18] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:18] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:18] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke23.fjs
+[01/06/2025 12:51:18] Jobs: 10; Operations: 50; Machines: 40
+[01/06/2025 12:51:18] Trivial Upper bound: 1454
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005850.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 2/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005434.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 3/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005283.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 4/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004647.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 5/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005108.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 6/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004763.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 7/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005267.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 8/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004928.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 9/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005128.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 10/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004706.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 11/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005240.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 12/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005291.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 13/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005253.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 14/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004718.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 15/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005179.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 16/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004818.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 17/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004971.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 18/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004691.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 19/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0005322.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 20/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004493.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 21/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004631.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 22/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004775.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 23/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004966.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 24/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004503.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 25/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004709.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 26/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004515.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 27/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004873.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 28/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004470.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 29/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004745.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+Run 30/30
+[01/06/2025 12:51:18] Starting LLM algorithm
+[01/06/2025 12:51:18] Solution found after 00:00:00.0004615.
+[01/06/2025 12:51:18] 
+Finishing LLM execution...
+Makespan: 113
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:18 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:25 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:49.962250...
+
+[06/01/2025 12:51:25 PM] ORCHESTRATOR: Instância 8/20...
+
+[06/01/2025 12:51:25 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:25 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:25] Processador lógico: 12
+[01/06/2025 12:51:25] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:25] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:25] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke27.fjs
+[01/06/2025 12:51:25] Jobs: 20; Operations: 100; Machines: 40
+[01/06/2025 12:51:25] Trivial Upper bound: 2913
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0015096.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 2/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0015020.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 3/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0014086.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 4/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013825.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 5/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013512.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 6/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0014165.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 7/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013483.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 8/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0014001.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 9/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013880.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 10/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013792.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 11/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013364.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 12/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013421.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 13/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013594.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 14/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013885.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 15/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013888.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 16/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0022308.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 17/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012589.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 18/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012748.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 19/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012465.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 20/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012675.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 21/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012404.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 22/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012708.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 23/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012809.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 24/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012407.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 25/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012849.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 26/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012652.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 27/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012555.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 28/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012363.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 29/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0013376.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+Run 30/30
+[01/06/2025 12:51:25] Starting LLM algorithm
+[01/06/2025 12:51:25] Solution found after 00:00:00.0012794.
+[01/06/2025 12:51:25] 
+Finishing LLM execution...
+Makespan: 149
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:25 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:32 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:00:57.267484...
+
+[06/01/2025 12:51:32 PM] ORCHESTRATOR: Instância 9/20...
+
+[06/01/2025 12:51:32 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:32 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:32] Processador lógico: 12
+[01/06/2025 12:51:32] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:32] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:32] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke38.fjs
+[01/06/2025 12:51:32] Jobs: 100; Operations: 500; Machines: 40
+[01/06/2025 12:51:32] Trivial Upper bound: 14522
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:32] Starting LLM algorithm
+[01/06/2025 12:51:32] Solution found after 00:00:00.0256033.
+[01/06/2025 12:51:32] 
+Finishing LLM execution...
+Makespan: 523
+Run 2/30
+[01/06/2025 12:51:32] Starting LLM algorithm
+[01/06/2025 12:51:32] Solution found after 00:00:00.0248009.
+[01/06/2025 12:51:32] 
+Finishing LLM execution...
+Makespan: 523
+Run 3/30
+[01/06/2025 12:51:32] Starting LLM algorithm
+[01/06/2025 12:51:32] Solution found after 00:00:00.0246146.
+[01/06/2025 12:51:32] 
+Finishing LLM execution...
+Makespan: 523
+Run 4/30
+[01/06/2025 12:51:32] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0243317.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 5/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0244556.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 6/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0243529.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 7/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0240043.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 8/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0242151.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 9/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0261174.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 10/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0129909.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 11/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0126284.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 12/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0131140.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 13/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0129002.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 14/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0132304.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 15/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0129956.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 16/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0127501.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 17/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0130103.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 18/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0088261.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 19/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0078544.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 20/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0076853.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 21/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0078129.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 22/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0076670.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 23/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0082720.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 24/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0077222.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 25/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0076447.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 26/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0076472.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 27/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0076725.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 28/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0080233.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 29/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0077705.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+Run 30/30
+[01/06/2025 12:51:33] Starting LLM algorithm
+[01/06/2025 12:51:33] Solution found after 00:00:00.0075732.
+[01/06/2025 12:51:33] 
+Finishing LLM execution...
+Makespan: 523
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:33 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:39 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:04.537531...
+
+[06/01/2025 12:51:39 PM] ORCHESTRATOR: Instância 10/20...
+
+[06/01/2025 12:51:39 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:39 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:40] Processador lógico: 12
+[01/06/2025 12:51:40] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:40] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:40] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke34.fjs
+[01/06/2025 12:51:40] Jobs: 50; Operations: 250; Machines: 40
+[01/06/2025 12:51:40] Trivial Upper bound: 7290
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0083940.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 2/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0061599.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 3/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0060490.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 4/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0059982.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 5/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0059553.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 6/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0074722.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 7/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0062919.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 8/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0060182.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 9/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0059049.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 10/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0065014.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 11/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0059510.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 12/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0058808.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 13/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0059494.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 14/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0065632.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 15/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0062281.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 16/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0058954.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 17/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0058996.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 18/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0060205.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 19/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0063667.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 20/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0061040.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 21/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0061990.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 22/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0080534.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 23/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0103930.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 24/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0068795.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 25/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0065707.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 26/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0061144.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 27/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0063462.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 28/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0058687.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 29/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0058464.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+Run 30/30
+[01/06/2025 12:51:40] Starting LLM algorithm
+[01/06/2025 12:51:40] Solution found after 00:00:00.0058441.
+[01/06/2025 12:51:40] 
+Finishing LLM execution...
+Makespan: 278
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:40 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:46 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:11.520963...
+
+[06/01/2025 12:51:46 PM] ORCHESTRATOR: Instância 11/20...
+
+[06/01/2025 12:51:46 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:46 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:47] Processador lógico: 12
+[01/06/2025 12:51:47] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:47] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:47] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke31.fjs
+[01/06/2025 12:51:47] Jobs: 50; Operations: 250; Machines: 40
+[01/06/2025 12:51:47] Trivial Upper bound: 7318
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0083189.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 2/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0062186.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 3/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0059973.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 4/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0060598.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 5/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0060809.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 6/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0072604.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 7/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0065468.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 8/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0065799.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 9/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0063716.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 10/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0064807.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 11/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0061721.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 12/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0059262.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 13/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0064206.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 14/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0065119.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 15/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0062550.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 16/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0062007.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 17/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0060326.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 18/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0064131.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 19/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0061345.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 20/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0064879.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 21/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0060762.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 22/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0062824.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 23/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0063091.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 24/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0061175.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 25/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0059803.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 26/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0059849.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 27/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0062647.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 28/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0062065.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 29/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0060286.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+Run 30/30
+[01/06/2025 12:51:47] Starting LLM algorithm
+[01/06/2025 12:51:47] Solution found after 00:00:00.0061020.
+[01/06/2025 12:51:47] 
+Finishing LLM execution...
+Makespan: 276
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:47 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:51:53 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:18.542272...
+
+[06/01/2025 12:51:53 PM] ORCHESTRATOR: Instância 12/20...
+
+[06/01/2025 12:51:53 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:51:53 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:51:54] Processador lógico: 12
+[01/06/2025 12:51:54] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:51:54] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:51:54] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke24.fjs
+[01/06/2025 12:51:54] Jobs: 10; Operations: 50; Machines: 40
+[01/06/2025 12:51:54] Trivial Upper bound: 1438
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0005076.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 2/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004334.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 3/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003890.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 4/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004490.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 5/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003897.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 6/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004019.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 7/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003948.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 8/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004257.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 9/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003964.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 10/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003982.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 11/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004238.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 12/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003943.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 13/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004354.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 14/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003913.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 15/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003932.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 16/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003924.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 17/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003889.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 18/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004752.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 19/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004190.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 20/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004204.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 21/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003912.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 22/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003981.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 23/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003905.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 24/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003849.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 25/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004265.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 26/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003814.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 27/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0004191.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 28/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003885.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 29/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003932.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+Run 30/30
+[01/06/2025 12:51:54] Starting LLM algorithm
+[01/06/2025 12:51:54] Solution found after 00:00:00.0003865.
+[01/06/2025 12:51:54] 
+Finishing LLM execution...
+Makespan: 115
+|--------------------------------------------------------------------------|
+[06/01/2025 12:51:54 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:00 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:25.387097...
+
+[06/01/2025 12:52:00 PM] ORCHESTRATOR: Instância 13/20...
+
+[06/01/2025 12:52:00 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:00 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:00] Processador lógico: 12
+[01/06/2025 12:52:00] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:00] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:00] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke39.fjs
+[01/06/2025 12:52:00] Jobs: 100; Operations: 500; Machines: 40
+[01/06/2025 12:52:00] Trivial Upper bound: 14503
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0239294.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 2/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0242486.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 3/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0238739.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 4/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0240738.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 5/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0244012.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 6/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0237184.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 7/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0237912.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 8/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0237834.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 9/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0352498.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 10/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0134835.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 11/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0135330.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 12/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0133222.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 13/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0131320.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 14/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0131990.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 15/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0131658.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 16/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0133216.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 17/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0180443.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 18/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0137632.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 19/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0124826.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 20/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0120381.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 21/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0123059.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 22/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0122839.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 23/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0125267.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 24/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0126360.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 25/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0123101.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 26/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0126658.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 27/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0128535.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 28/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0125679.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 29/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0122113.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+Run 30/30
+[01/06/2025 12:52:01] Starting LLM algorithm
+[01/06/2025 12:52:01] Solution found after 00:00:00.0123078.
+[01/06/2025 12:52:01] 
+Finishing LLM execution...
+Makespan: 468
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:01 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:08 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:32.918611...
+
+[06/01/2025 12:52:08 PM] ORCHESTRATOR: Instância 14/20...
+
+[06/01/2025 12:52:08 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:08 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:08] Processador lógico: 12
+[01/06/2025 12:52:08] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:08] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:08] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke35.fjs
+[01/06/2025 12:52:08] Jobs: 50; Operations: 250; Machines: 40
+[01/06/2025 12:52:08] Trivial Upper bound: 7263
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0088349.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 2/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0065881.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 3/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0065503.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 4/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0065077.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 5/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064894.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 6/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0082074.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 7/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0067969.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 8/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0065281.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 9/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064250.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 10/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0069388.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 11/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064066.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 12/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0063955.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 13/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0065394.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 14/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0068245.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 15/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064471.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 16/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064972.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 17/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064967.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 18/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0069475.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 19/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0067303.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 20/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0066861.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 21/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0069312.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 22/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064775.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 23/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0067107.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 24/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064504.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 25/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0066187.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 26/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0067239.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 27/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0068399.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 28/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0064745.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 29/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0066430.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+Run 30/30
+[01/06/2025 12:52:08] Starting LLM algorithm
+[01/06/2025 12:52:08] Solution found after 00:00:00.0065506.
+[01/06/2025 12:52:08] 
+Finishing LLM execution...
+Makespan: 255
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:08 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:15 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:39.970671...
+
+[06/01/2025 12:52:15 PM] ORCHESTRATOR: Instância 15/20...
+
+[06/01/2025 12:52:15 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:15 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:15] Processador lógico: 12
+[01/06/2025 12:52:15] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:15] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:15] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke32.fjs
+[01/06/2025 12:52:15] Jobs: 50; Operations: 250; Machines: 40
+[01/06/2025 12:52:15] Trivial Upper bound: 7292
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0081621.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 2/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059777.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 3/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0060161.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 4/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059971.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 5/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059622.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 6/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0070515.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 7/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0060347.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 8/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0060261.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 9/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059869.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 10/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0064818.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 11/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059889.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 12/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059777.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 13/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059544.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 14/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0063789.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 15/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0060142.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 16/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059507.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 17/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059546.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 18/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059261.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 19/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0063685.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 20/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0060703.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 21/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0060235.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 22/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059426.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 23/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0065183.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 24/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059003.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 25/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0058604.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 26/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0061505.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 27/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0060794.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 28/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0058265.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 29/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0059547.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+Run 30/30
+[01/06/2025 12:52:15] Starting LLM algorithm
+[01/06/2025 12:52:15] Solution found after 00:00:00.0058539.
+[01/06/2025 12:52:15] 
+Finishing LLM execution...
+Makespan: 281
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:15 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:22 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:47.002190...
+
+[06/01/2025 12:52:22 PM] ORCHESTRATOR: Instância 16/20...
+
+[06/01/2025 12:52:22 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:22 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:22] Processador lógico: 12
+[01/06/2025 12:52:22] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:22] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:22] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke30.fjs
+[01/06/2025 12:52:22] Jobs: 20; Operations: 100; Machines: 40
+[01/06/2025 12:52:22] Trivial Upper bound: 2916
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0014454.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 2/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013729.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 3/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013138.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 4/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0012915.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 5/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013074.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 6/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013086.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 7/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013832.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 8/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013465.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 9/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013943.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 10/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013329.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 11/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0014668.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 12/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013557.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 13/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0012958.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 14/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0013346.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 15/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0012923.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 16/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0023777.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 17/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011998.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 18/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011610.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 19/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011556.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 20/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0012034.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 21/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011573.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 22/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011762.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 23/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011992.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 24/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011534.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 25/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011844.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 26/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011578.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 27/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0012033.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 28/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011904.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 29/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0011743.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+Run 30/30
+[01/06/2025 12:52:22] Starting LLM algorithm
+[01/06/2025 12:52:22] Solution found after 00:00:00.0012278.
+[01/06/2025 12:52:22] 
+Finishing LLM execution...
+Makespan: 167
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:22 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:29 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:01:53.821180...
+
+[06/01/2025 12:52:29 PM] ORCHESTRATOR: Instância 17/20...
+
+[06/01/2025 12:52:29 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:29 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:29] Processador lógico: 12
+[01/06/2025 12:52:29] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:29] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:29] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke37.fjs
+[01/06/2025 12:52:29] Jobs: 100; Operations: 500; Machines: 40
+[01/06/2025 12:52:29] Trivial Upper bound: 14576
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0239674.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 2/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0245234.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 3/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0242870.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 4/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0241213.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 5/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0242796.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 6/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0241888.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 7/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0240742.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 8/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0241286.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 9/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0247765.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 10/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0126214.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 11/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0126564.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 12/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0126887.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 13/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125426.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 14/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0126210.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 15/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0126627.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 16/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125727.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 17/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125633.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 18/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0126464.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 19/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125766.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 20/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125408.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 21/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0122021.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 22/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125156.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 23/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0126890.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 24/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125335.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 25/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0125478.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 26/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0085443.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 27/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0077763.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 28/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0079166.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 29/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0076945.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+Run 30/30
+[01/06/2025 12:52:29] Starting LLM algorithm
+[01/06/2025 12:52:29] Solution found after 00:00:00.0076384.
+[01/06/2025 12:52:29] 
+Finishing LLM execution...
+Makespan: 469
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:30 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:36 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:02:01.145003...
+
+[06/01/2025 12:52:36 PM] ORCHESTRATOR: Instância 18/20...
+
+[06/01/2025 12:52:36 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:36 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:36] Processador lógico: 12
+[01/06/2025 12:52:36] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:36] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:36] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke22.fjs
+[01/06/2025 12:52:36] Jobs: 10; Operations: 50; Machines: 40
+[01/06/2025 12:52:36] Trivial Upper bound: 1450
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004785.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 2/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004590.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 3/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003930.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 4/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004430.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 5/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003958.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 6/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004359.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 7/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003977.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 8/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004377.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 9/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004071.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 10/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003865.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 11/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004685.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 12/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004011.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 13/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004654.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 14/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0005387.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 15/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004264.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 16/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003878.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 17/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004250.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 18/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003890.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 19/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004257.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 20/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003943.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 21/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003833.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 22/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004440.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 23/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003820.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 24/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004234.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 25/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003833.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 26/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003852.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 27/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003939.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 28/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003895.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 29/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0004225.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+Run 30/30
+[01/06/2025 12:52:36] Starting LLM algorithm
+[01/06/2025 12:52:36] Solution found after 00:00:00.0003843.
+[01/06/2025 12:52:36] 
+Finishing LLM execution...
+Makespan: 103
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:36 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:43 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:02:08.501443...
+
+[06/01/2025 12:52:43 PM] ORCHESTRATOR: Instância 19/20...
+
+[06/01/2025 12:52:43 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:43 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:44] Processador lógico: 12
+[01/06/2025 12:52:44] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:44] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:44] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke28.fjs
+[01/06/2025 12:52:44] Jobs: 20; Operations: 100; Machines: 40
+[01/06/2025 12:52:44] Trivial Upper bound: 2918
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0014245.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 2/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013837.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 3/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0014609.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 4/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013388.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 5/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013700.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 6/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013860.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 7/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013724.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 8/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0014133.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 9/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013860.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 10/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0015345.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 11/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0014421.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 12/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0014438.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 13/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013246.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 14/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013215.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 15/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0013162.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 16/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0022193.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 17/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012361.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 18/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012511.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 19/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012483.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 20/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012170.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 21/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012071.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 22/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012047.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 23/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012507.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 24/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012038.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 25/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0011724.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 26/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012138.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 27/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0011960.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 28/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012851.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 29/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0012188.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+Run 30/30
+[01/06/2025 12:52:44] Starting LLM algorithm
+[01/06/2025 12:52:44] Solution found after 00:00:00.0011734.
+[01/06/2025 12:52:44] 
+Finishing LLM execution...
+Makespan: 143
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:44 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:51 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:02:15.827924...
+
+[06/01/2025 12:52:51 PM] ORCHESTRATOR: Instância 20/20...
+
+[06/01/2025 12:52:51 PM] ORCHESTRATOR: Iniciando a execução do solver #greedy
+[06/01/2025 12:52:51 PM] ORCHESTRATOR: Solvers restantes: []
+[01/06/2025 12:52:51] Processador lógico: 12
+[01/06/2025 12:52:51] ThreadPool disponível: 32767/32767 (Worker)
+[01/06/2025 12:52:51] ThreadPool disponível: 1000/1000 (IO)
+[01/06/2025 12:52:51] Benchmark: /home/matheus.antonio/Documentos/PGC/SchedulingAlgorithms/Scheduling.Benchmarks/Data/Behnke_m40/Behnke40.fjs
+[01/06/2025 12:52:51] Jobs: 100; Operations: 500; Machines: 40
+[01/06/2025 12:52:51] Trivial Upper bound: 14455
+|--------------------------------------------------------------------------|
+Run 1/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0264538.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 2/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0251060.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 3/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0251288.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 4/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0249858.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 5/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0251468.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 6/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0255422.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 7/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0248283.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 8/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0249818.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 9/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0232452.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 10/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0134637.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 11/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0133874.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 12/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0131367.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 13/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0135879.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 14/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0131854.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 15/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0134870.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 16/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0132075.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 17/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0133263.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 18/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0130033.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 19/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0134719.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 20/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0132771.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 21/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0131875.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 22/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0130042.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 23/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0131338.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 24/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0132410.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 25/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0087883.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 26/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0079824.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 27/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0079417.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 28/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0080734.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 29/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0079284.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+Run 30/30
+[01/06/2025 12:52:51] Starting LLM algorithm
+[01/06/2025 12:52:51] Solution found after 00:00:00.0079651.
+[01/06/2025 12:52:51] 
+Finishing LLM execution...
+Makespan: 488
+|--------------------------------------------------------------------------|
+[06/01/2025 12:52:52 PM] ORCHESTRATOR: Finalizando com greedy
+[06/01/2025 12:52:58 PM] ORCHESTRATOR: Finalizando instâncias de Behnke_m40 em 0:02:23.127297...
+
+[06/01/2025 12:52:58 PM] ORCHESTRATOR: Finalizando execução com 0 falhas...
+
