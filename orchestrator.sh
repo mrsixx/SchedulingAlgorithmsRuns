@@ -37,14 +37,14 @@ echo "iniciando compilação dos resultados"
 #python3 result-compiler.py ant-battle-royale/30052025/5_Kacem/V3 5_Kacem-V3 kacem
 
 #python3 result-compiler.py RibeiroSuzarte/1-v2 RibeiroSuzarte1-V2 ribeiro
-python3 result-compiler.py RibeiroSuzarte/2-v2 RibeiroSuzarte2-V2 ribeiro
-python3 result-compiler.py RibeiroSuzarte/3-v2 RibeiroSuzarte3-V2 ribeiro
+#python3 result-compiler.py RibeiroSuzarte/2-v2 RibeiroSuzarte2-V2 ribeiro
+#python3 result-compiler.py RibeiroSuzarte/3-v2 RibeiroSuzarte3-V2 ribeiro
+python3 result-compiler.py RibeiroSuzarte/4-v2 RibeiroSuzarte4-V2 ribeiro
 
 
 python3 result-compiler.py RibeiroSuzarte/1-v3 RibeiroSuzarte1-V3 ribeiro
 python3 result-compiler.py RibeiroSuzarte/2-v3 RibeiroSuzarte2-V3 ribeiro
 python3 result-compiler.py RibeiroSuzarte/3-v3 RibeiroSuzarte3-V3 ribeiro
-python3 result-compiler.py RibeiroSuzarte/4-v2 RibeiroSuzarte4-V2 ribeiro
 
 
 echo "compilação finalizada"
