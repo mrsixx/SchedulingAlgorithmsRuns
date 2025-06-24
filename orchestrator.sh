@@ -39,12 +39,16 @@ echo "iniciando compilação dos resultados"
 #python3 result-compiler.py RibeiroSuzarte/1-v2 RibeiroSuzarte1-V2 ribeiro
 #python3 result-compiler.py RibeiroSuzarte/2-v2 RibeiroSuzarte2-V2 ribeiro
 #python3 result-compiler.py RibeiroSuzarte/3-v2 RibeiroSuzarte3-V2 ribeiro
-python3 result-compiler.py RibeiroSuzarte/4-v2 RibeiroSuzarte4-V2 ribeiro
+#python3 result-compiler.py RibeiroSuzarte/4-v2 RibeiroSuzarte4-V2 ribeiro
 
 
-python3 result-compiler.py RibeiroSuzarte/1-v3 RibeiroSuzarte1-V3 ribeiro
-python3 result-compiler.py RibeiroSuzarte/2-v3 RibeiroSuzarte2-V3 ribeiro
-python3 result-compiler.py RibeiroSuzarte/3-v3 RibeiroSuzarte3-V3 ribeiro
+#python3 result-compiler.py RibeiroSuzarte/1-v3 RibeiroSuzarte1-V3 ribeiro
+#python3 result-compiler.py RibeiroSuzarte/2-v3 RibeiroSuzarte2-V3 ribeiro
+#python3 result-compiler.py RibeiroSuzarte/3-v3 RibeiroSuzarte3-V3 ribeiro
+
+#local searh
+#python3 result-compiler.py local_search/6_Fattahi/ 6_Fattahi-V2ls fattahi
+python3 result-compiler.py local_search/2a_Hurink_sdata/Lawrence 2a_Hurink_sdata-V2ls lawrence
 
 
 echo "compilação finalizada"

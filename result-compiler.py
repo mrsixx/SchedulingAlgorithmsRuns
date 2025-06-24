@@ -7,6 +7,76 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pypalettes import load_cmap
 
+def iterations(
+    output_path: str,
+    ds_key: str,
+    y_label: str
+):
+    # Dados fictícios: substitua pelos seus reais
+    conjuntos = ['1', '10', '100', '1.000', '10.000']
+    algoritmos = ['ACSV2-i', 'ACSV2-p']
+
+    # Cada linha representa os valores de gap percentual médio para um algoritmo em cada conjunto
+    mksp_avg = {
+        'ACSV2-p': [3911.567, 3808.990, 3770.128, 3738.000, 3726.243],
+        'ACSV2-i': [3847.477, 3821.071, 3775.735, 3751.569, 3734.613],
+    }
+
+    mksp_best = {
+        'ACSV2-p': [3847.428, 3745.631, 3732.769, 3712.793, 3701.098],
+        'ACSV2-i': [3760.180, 3746.973, 3740.314, 3732.917, 3720.329],
+    }
+
+    cpu_avg = {
+        'ACSV2-p': [5732.9, 40745.7, 213651.4, 1471093.2, 14403941.6],
+        'ACSV2-i': [19481, 105688.5, 576905.9, 4853724.1, 33510944.4],
+    }
+    marcadores = {
+        'ACSV2-p': 'o',
+        'ACSV2-i': 'd',
+        'LLM-FJSSP': 's',
+    }
+    ds = {
+        'cputime': cpu_avg,
+        'mkspavg': mksp_avg,
+        'bestmksp': mksp_best
+    }
+    # Cores consistentes com os gráficos anteriores
+    
+    color_map = load_cmap("basel")
+    colors = [color_map(i) for i in range(10)]
+    cores = {
+        'ACSV2-i': colors[8],
+        'ACSV2-p': colors[9],
+        'LLM-FJSSP': 'black'
+    }
+    plt.figure(figsize=(10, 6))
+
+    for i, alg in enumerate(algoritmos):
+        plt.plot(
+            conjuntos,
+            ds[ds_key][alg],
+            label=alg,
+            color=cores[alg],
+            marker= marcadores[alg],
+            linewidth= 3,
+            #linestyle='-.' if alg.lower().startswith('v2') else '--',
+            markersize=8
+        )
+
+
+    #plt.ylim(bottom=0)
+    
+    # plt.title(title)
+    plt.ylabel(y_label)
+    plt.xlabel('Iterações')
+    plt.xticks(rotation=45)
+    plt.grid(True, linestyle='--', alpha=0.5)
+    plt.legend(title='Implementação', loc='best')
+    plt.tight_layout()
+    plt.savefig(output_path)
+    plt.show()
+
 def gaps(
     output_path: str,
 ):
@@ -24,12 +94,12 @@ def gaps(
     }
 
     marcadores = {
-    'V0': '^',
-    'V1': 'D',
-    'V2': 'd',
-    'V3': '.',
-    'LLM-FJSSP': 's',
-}
+        'V0': '^',
+        'V1': 'D',
+        'V2': 'd',
+        'V3': '.',
+        'LLM-FJSSP': 's',
+    }
 
     # Cores consistentes com os gráficos anteriores
     cores = {
@@ -249,59 +319,59 @@ def plot_charts(df, output_dir, files_base_name, rename_fn, transform_fn):
     os.makedirs(output_dir, exist_ok=True)
     df['Solver + Approach'] = df['Solver'] + '-' + df['Approach']
     #plot_line_chart_by_solver(df, f'{output_dir}/{files_base_name}')
-    #plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
-    #plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
+    plot_line_chart(df, 'Makespan (avg)', 'Makespan médio por instância e por implementação', 'Makespan', f'{output_dir}/{files_base_name}_makespan', rename_fn,transform_fn)
+    plot_line_chart(df, 'CPU TIME(ms) (avg)', 'Tempo médio de CPU por instância e por implementação', 'Tempo de CPU (ms)', f'{output_dir}/{files_base_name}_cputime', rename_fn)
 
-    for instance_name, df_instance in df.groupby('Instance'):
-        safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
+    # for instance_name, df_instance in df.groupby('Instance'):
+    #     safe_instance = f'{files_base_name}_{instance_name.replace(" ", "_").replace("/", "_")}'
         
-        makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
-        # plot_metric_with_errorbars(
-        #     df_instance,
-        #     metric_prefix='Makespan',
-        #     color='#998ec3',
-        #     output_path=makespan_path,
-        #     title=f'{instance_name} - Makespan (hrs)',
-        #     transform=lambda x: x / 3600,
-        #     # x_order=[
-        #     #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-        #     #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-        #     #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-        #     # x_order=['greedy-iterative',
-        #     #     'ASV1-iterative', 'ASV1-parallel',
-        #     #     'ASV2-iterative', 'ASV2-parallel'
-        #     #     'ASV3-iterative', 'ASV3-parallel']
-        # )
-        plot_bars_with_style(
-            df_instance,
-            metric_prefix='Makespan',
-            output_path=makespan_path,
-            title=f'{instance_name} - Makespan (hrs)',
-            transform=lambda x: x / 3600,
-        )
+    #     makespan_path = os.path.join(output_dir, f'{safe_instance}_makespan_chart.png')
+    #     # plot_metric_with_errorbars(
+    #     #     df_instance,
+    #     #     metric_prefix='Makespan',
+    #     #     color='#998ec3',
+    #     #     output_path=makespan_path,
+    #     #     title=f'{instance_name} - Makespan (hrs)',
+    #     #     transform=lambda x: x / 3600,
+    #     #     # x_order=[
+    #     #     #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+    #     #     #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+    #     #     #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+    #     #     # x_order=['greedy-iterative',
+    #     #     #     'ASV1-iterative', 'ASV1-parallel',
+    #     #     #     'ASV2-iterative', 'ASV2-parallel'
+    #     #     #     'ASV3-iterative', 'ASV3-parallel']
+    #     # )
+    #     plot_bars_with_style(
+    #         df_instance,
+    #         metric_prefix='Makespan',
+    #         output_path=makespan_path,
+    #         title=f'{instance_name} - Makespan (hrs)',
+    #         transform=lambda x: x / 3600,
+    #     )
 
-        cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
-        plot_bars_with_style(
-            df_instance,
-            metric_prefix='CPU TIME(ms)',
-            output_path=cpu_path,
-            title=f'{instance_name} - CPU TIME',
-        )
-        # plot_metric_with_errorbars(
-        #     df_instance,
-        #     metric_prefix='CPU TIME(ms)',
-        #     color='#f1a340',
-        #     output_path=cpu_path,
-        #     title=f'{instance_name} - CPU TIME',
-        #     # x_order=[
-        #     #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
-        #     #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
-        #     #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
-        #     # x_order=['greedy-iterative',
-        #     #     'ASV1-iterative', 'ASV1-parallel',
-        #     #     'ASV2-iterative', 'ASV2-parallel'
-        #     #     'ASV3-iterative', 'ASV3-parallel']
-        # )
+    #     cpu_path = os.path.join(output_dir, f'{safe_instance}_cputime_chart.png')
+    #     plot_bars_with_style(
+    #         df_instance,
+    #         metric_prefix='CPU TIME(ms)',
+    #         output_path=cpu_path,
+    #         title=f'{instance_name} - CPU TIME',
+    #     )
+    #     # plot_metric_with_errorbars(
+    #     #     df_instance,
+    #     #     metric_prefix='CPU TIME(ms)',
+    #     #     color='#f1a340',
+    #     #     output_path=cpu_path,
+    #     #     title=f'{instance_name} - CPU TIME',
+    #     #     # x_order=[
+    #     #     #     'ASV2-iterative', 'ASV2-parallel','EASV2-iterative', 'EASV2-parallel', 
+    #     #     #     'RBASV2-iterative', 'RBASV2-parallel', 'MMASV2-iterative', 'MMASV2-parallel', 
+    #     #     #     'ACSV2-iterative', 'ACSV2-parallel', 'greedy-iterative']
+    #     #     # x_order=['greedy-iterative',
+    #     #     #     'ASV1-iterative', 'ASV1-parallel',
+    #     #     #     'ASV2-iterative', 'ASV2-parallel'
+    #     #     #     'ASV3-iterative', 'ASV3-parallel']
+    #     # )
 
 
 def plot_bars_with_style(
@@ -507,6 +577,12 @@ def replace_fn_factory(name):
         return rename_map
     
     return identity,identity_transform
+
+if __name__ == "c__main__":
+    iterations('/workspaces/SchedulingAlgorithmsRuns/iterations-cputime.png', 'cputime', 'CPU TIME (ms)')
+    iterations('/workspaces/SchedulingAlgorithmsRuns/iterations-mkspavg.png', 'mkspavg', 'Makespan')
+    iterations('/workspaces/SchedulingAlgorithmsRuns/iterations-bestmksp.png', 'bestmksp', 'Makespan')
+    sys.exit()
 
 if __name__ == "a__main__":
     gaps('/workspaces/SchedulingAlgorithmsRuns/gaps.png')
