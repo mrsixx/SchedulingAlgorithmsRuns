@@ -34,15 +34,21 @@ Os gráficos gerados detalham o desempenho dos algoritmos em termos de makespan,
 
 ### 📌 Gráfico de Síntese
 
-- [📄 Gráfico de síntese geral (comparação dos gaps entre conjuntos)](charts/gaps.png)
+## 📄 Gráfico de síntese geral (comparação dos gaps entre conjuntos)
+![Gráfico de síntese geral (comparação dos gaps entre conjuntos)](charts/gaps.png)
 
 ### 📈 Curvas de densidade de probabilidade dos gaps médios (estimadas por KDE) de cada instância
 
-- [Fattahi et al. (2007)](charts/Fattahi/kde_Fattahi.png)
-- [Brandimarte (1993)](charts/Brandimarte/kde_Brandimarte.png)
-- [Dauzère-Pérès e Paulli (1997)](charts/DPerez/kde_DPerez.png)
-- [Hurink et al. (1994) - sdata](charts/HurinkSData/kde_HurinkSData.png)
-- [Hurink et al. (1994) - vdata](charts/HurinkVData/kde_HurinkVData.png)
+## Fattahi et al. (2007)
+![Fattahi et al. (2007)](charts/Fattahi/kde_Fattahi.png)
+## Brandimarte (1993)
+![Brandimarte (1993)](charts/Brandimarte/kde_Brandimarte.png)
+## Dauzère-Pérès e Paulli (1997)
+![Dauzère-Pérès e Paulli (1997)](charts/DPerez/kde_DPerez.png)
+## Hurink et al. (1994) - sdata
+![Hurink et al. (1994) - sdata](charts/HurinkSData/kde_HurinkSData.png)
+## Hurink et al. (1994) - vdata
+![Hurink et al. (1994) - vdata](charts/HurinkVData/kde_HurinkVData.png)
 
 ## 💻 Ambiente de Execução
 
