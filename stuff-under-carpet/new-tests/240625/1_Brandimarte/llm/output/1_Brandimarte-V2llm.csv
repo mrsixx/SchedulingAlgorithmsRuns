@@ -1,0 +1,16 @@
+Instance;Approach;Solver;Makespan (min);Makespan (avg);Makespan (max);Makespan (std);CPU TIME(ms) (min);CPU TIME(ms) (avg);CPU TIME(ms) (max);CPU TIME(ms) (std)
+BrandimarteMk1;iterative;greedy;73;73,00;73;0,00;0;0,07;1;0,25
+BrandimarteMk10;iterative;greedy;601;601,00;601;0,00;1;1,33;3;0,55
+BrandimarteMk11;iterative;greedy;947;947,00;947;0,00;1;1,30;2;0,47
+BrandimarteMk12;iterative;greedy;915;915,00;915;0,00;1;1,33;2;0,48
+BrandimarteMk13;iterative;greedy;811;811,00;811;0,00;2;2,60;4;0,56
+BrandimarteMk14;iterative;greedy;1259;1259,00;1259;0,00;2;2,30;4;0,53
+BrandimarteMk15;iterative;greedy;897;897,00;897;0,00;2;2,97;4;0,41
+BrandimarteMk2;iterative;greedy;69;69,00;69;0,00;0;0,03;1;0,18
+BrandimarteMk3;iterative;greedy;501;501,00;501;0,00;0;0,53;2;0,57
+BrandimarteMk4;iterative;greedy;109;109,00;109;0,00;0;0,03;1;0,18
+BrandimarteMk5;iterative;greedy;329;329,00;329;0,00;0;0,03;1;0,18
+BrandimarteMk6;iterative;greedy;158;158,00;158;0,00;0;0,60;2;0,56
+BrandimarteMk7;iterative;greedy;312;312,00;312;0,00;0;0,63;2;0,56
+BrandimarteMk8;iterative;greedy;862;862,00;862;0,00;1;1,10;2;0,31
+BrandimarteMk9;iterative;greedy;689;689,00;689;0,00;1;1,27;2;0,45

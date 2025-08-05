@@ -1,0 +1,21 @@
+Instance;Approach;Solver;Makespan (min);Makespan (avg);Makespan (max);Makespan (std);CPU TIME(ms) (min);CPU TIME(ms) (avg);CPU TIME(ms) (max);CPU TIME(ms) (std)
+Fattahi1;iterative;greedy;91;91,00;91;0,00;0;0,00;0;0,00
+Fattahi10;iterative;greedy;608;608,00;608;0,00;0;0,00;0;0,00
+Fattahi11;iterative;greedy;785;785,00;785;0,00;0;0,00;0;0,00
+Fattahi12;iterative;greedy;585;585,00;585;0,00;0;0,00;0;0,00
+Fattahi13;iterative;greedy;839;839,00;839;0,00;0;0,00;0;0,00
+Fattahi14;iterative;greedy;926;926,00;926;0,00;0;0,00;0;0,00
+Fattahi15;iterative;greedy;875;875,00;875;0,00;0;0,00;0;0,00
+Fattahi16;iterative;greedy;1133;1133,00;1133;0,00;0;0,00;0;0,00
+Fattahi17;iterative;greedy;1715;1715,00;1715;0,00;0;0,00;0;0,00
+Fattahi18;iterative;greedy;1405;1405,00;1405;0,00;0;0,00;0;0,00
+Fattahi19;iterative;greedy;1887;1887,00;1887;0,00;0;0,00;0;0,00
+Fattahi2;iterative;greedy;128;128,00;128;0,00;0;0,00;0;0,00
+Fattahi20;iterative;greedy;1927;1927,00;1927;0,00;0;0,00;0;0,00
+Fattahi3;iterative;greedy;316;316,00;316;0,00;0;0,00;0;0,00
+Fattahi4;iterative;greedy;421;421,00;421;0,00;0;0,00;0;0,00
+Fattahi5;iterative;greedy;147;147,00;147;0,00;0;0,00;0;0,00
+Fattahi6;iterative;greedy;490;490,00;490;0,00;0;0,00;0;0,00
+Fattahi7;iterative;greedy;432;432,00;432;0,00;0;0,00;0;0,00
+Fattahi8;iterative;greedy;327;327,00;327;0,00;0;0,00;0;0,00
+Fattahi9;iterative;greedy;267;267,00;267;0,00;0;0,00;0;0,00

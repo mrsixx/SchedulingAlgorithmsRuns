@@ -1,0 +1,19 @@
+Instance;Approach;Solver;Makespan (min);Makespan (avg);Makespan (max);Makespan (std);CPU TIME(ms) (min);CPU TIME(ms) (avg);CPU TIME(ms) (max);CPU TIME(ms) (std)
+DPpaulli10a;iterative;greedy;4192;4192,00;4192;0,00;0;0,00;0;0,00
+DPpaulli11a;iterative;greedy;4371;4371,00;4371;0,00;0;0,00;0;0,00
+DPpaulli12a;iterative;greedy;4846;4846,00;4846;0,00;0;0,00;0;0,00
+DPpaulli13a;iterative;greedy;4990;4990,00;4990;0,00;0;0,00;0;0,00
+DPpaulli14a;iterative;greedy;5102;5102,00;5102;0,00;0;0,00;0;0,00
+DPpaulli15a;iterative;greedy;6299;6299,00;6299;0,00;0;0,00;0;0,00
+DPpaulli16a;iterative;greedy;5284;5284,00;5284;0,00;0;0,00;0;0,00
+DPpaulli17a;iterative;greedy;5115;5115,00;5115;0,00;0;0,00;0;0,00
+DPpaulli18a;iterative;greedy;5835;5835,00;5835;0,00;0;0,00;0;0,00
+DPpaulli1a;iterative;greedy;4302;4302,00;4302;0,00;0;0,00;0;0,00
+DPpaulli2a;iterative;greedy;3983;3983,00;3983;0,00;0;0,00;0;0,00
+DPpaulli3a;iterative;greedy;4810;4810,00;4810;0,00;0;0,00;0;0,00
+DPpaulli4a;iterative;greedy;4622;4622,00;4622;0,00;0;0,00;0;0,00
+DPpaulli5a;iterative;greedy;4156;4156,00;4156;0,00;0;0,00;0;0,00
+DPpaulli6a;iterative;greedy;4907;4907,00;4907;0,00;0;0,00;0;0,00
+DPpaulli7a;iterative;greedy;4862;4862,00;4862;0,00;0;0,00;0;0,00
+DPpaulli8a;iterative;greedy;4679;4679,00;4679;0,00;0;0,00;0;0,00
+DPpaulli9a;iterative;greedy;5421;5421,00;5421;0,00;0;0,00;0;0,00
