@@ -1,7 +1,7 @@
 # SchedulingAlgorithmsRuns
 # Resultados do TCC — FJSSP com ACO
 
-Este repositório contém os resultados experimentais do trabalho **"O Escalonador dos Papéis: Abordagens heurísticas com colônias de formigas para o escalonamento flexível de trabalhos no contexto da indústria gráfica"** [Disponível neste repositório](https://github.com/mrsixx/SchedulingAlgorithms), cujo foco foi a aplicação de algoritmos baseados em Otimização por Colônia de Formigas (ACO) ao problema de escalonamento **Flexible Job Shop (FJSSP)**.
+Este repositório contém os resultados experimentais do trabalho **"O Escalonador dos Papéis: Abordagens heurísticas com colônias de formigas para o escalonamento flexível de trabalhos no contexto da indústria gráfica"** [Disponível neste repositório](https://github.com/mrsixx/SchedulingAlgorithms), cujo foco foi a aplicação de algoritmos baseados em Otimização por Colônia de Formigas (ACO) ao problema de escalonamento **Flexible Job Shop (FJSSP)**. As instâncias criadas diretamente para esse trabalho se encontram [neste link](https://www.kaggle.com/datasets/mrsixx/fjssp-ribeirosuzarte-instances/data).
 
 ## 🔍 Problema estudado
 
