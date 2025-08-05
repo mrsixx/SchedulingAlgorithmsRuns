@@ -58,3 +58,7 @@ Os experimentos foram executados em:
 - Memória RAM: 16 GB
 - Sistema operacional: Kubuntu 24.04
 - Plataforma de desenvolvimento: C# 12 com .NET 8 e PLINQ
+
+---
+
+Made with ☕ and 🧠 by [Matheus]
