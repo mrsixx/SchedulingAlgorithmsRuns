@@ -1,0 +1,129 @@
+\documentclass[10pt]{article}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage[hmargin=2.5cm,vmargin=2.5cm]{geometry}
+
+\title{Statistical Analysis Results for FJSSP Algorithms}
+\author{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Statistical Summary}
+
+\section{Friedman Test Results}
+\begin{table}[H]
+\centering
+\caption{Average ranks from Friedman test (lower is better)}
+\label{tab:friedman}
+\begin{tabular}{lc}
+\toprule
+Algorithm & Average Rank \\
+\midrule
+ACSi & 1.475 \\
+ACSp & 1.625 \\
+ECT & 2.900 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The Friedman test resulted in a statistic of $\chi^2 = 25.4805$ with a p-value of 0.000003, rejecting the null hypothesis that all algorithms perform equally.
+
+\section{Performance Metrics Summary}
+\begin{table}[H]
+\centering
+\caption{Summary of performance metrics (mean ± standard deviation)}
+\label{tab:metrics}
+\begin{tabular}{lcccc}
+\toprule
+Instance & Algorithm & Makespan & Time (ms) & Gap (\%) \\
+\midrule
+\multirow{3}{*}{SFJS1} & ACSi & 66.0 ± 0.0 & 2.7 ± 2.0 & 0.00 \\
+ & ACSp & 66.0 ± 0.0 & 3.7 ± 2.9 & 0.00 \\
+ & ECT & 91.0 ± 0.0 & 0.0 ± 0.0 & 37.88 \\
+\midrule
+\multirow{3}{*}{SFJS2} & ACSi & 107.0 ± 0.0 & 3.1 ± 1.8 & 0.00 \\
+ & ACSp & 107.0 ± 0.0 & 3.3 ± 2.9 & 0.00 \\
+ & ECT & 128.0 ± 0.0 & 0.0 ± 0.0 & 19.63 \\
+\midrule
+\multirow{3}{*}{SFJS3} & ACSi & 221.0 ± 0.0 & 5.2 ± 2.1 & 0.00 \\
+ & ACSp & 221.0 ± 0.0 & 4.5 ± 2.9 & 0.00 \\
+ & ECT & 316.0 ± 0.0 & 0.0 ± 0.0 & 42.99 \\
+\midrule
+\multirow{3}{*}{SFJS4} & ACSi & 360.5 ± 10.9 & 4.7 ± 2.0 & 1.56 \\
+ & ACSp & 358.8 ± 8.5 & 4.8 ± 2.9 & 1.06 \\
+ & ECT & 421.0 ± 0.0 & 0.0 ± 0.0 & 18.59 \\
+\midrule
+\multirow{3}{*}{SFJS5} & ACSi & 119.0 ± 0.0 & 7.4 ± 3.1 & 0.00 \\
+ & ACSp & 119.3 ± 1.6 & 5.0 ± 2.8 & 0.25 \\
+ & ECT & 147.0 ± 0.0 & 0.0 ± 0.0 & 23.53 \\
+\midrule
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Speedup Analysis}
+\begin{table}[H]
+\centering
+\caption{Speedup of ACSp relative to ACSi}
+\label{tab:speedup}
+\begin{tabular}{lc}
+\toprule
+Instance & Speedup (ACSi/ACSp) \\
+\midrule
+SFJS1 & 0.74x \\
+SFJS2 & 0.95x \\
+SFJS3 & 1.16x \\
+SFJS4 & 0.99x \\
+SFJS5 & 1.48x \\
+SFJS6 & 1.40x \\
+SFJS7 & 1.21x \\
+SFJS8 & 1.42x \\
+SFJS9 & 1.15x \\
+SFJS10 & 1.32x \\
+MFJS1 & 1.90x \\
+MFJS2 & 1.90x \\
+MFJS3 & 2.09x \\
+MFJS4 & 1.82x \\
+MFJS5 & 1.87x \\
+MFJS6 & 1.85x \\
+MFJS7 & 1.98x \\
+MFJS8 & 1.86x \\
+MFJS9 & 1.58x \\
+MFJS10 & 1.84x \\
+\midrule
+Average & 1.52x \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Graphical Analysis}
+The following figures provide visual analysis of the results:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{critical_difference.png}
+\caption{Critical Difference diagram showing statistical comparison of algorithms}
+\label{fig:cd}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{performance_comparison.png}
+\caption{Comparison of makespan and execution time for selected instances}
+\label{fig:perf}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{speedup_analysis.png}
+\caption{Speedup analysis of parallel implementation}
+\label{fig:speedup}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,20 @@
+{
+    "friedman_test": {
+        "statistic": 25.480519480519515,
+        "p_value": 2.930727886797195e-06,
+        "avg_ranks": {
+            "ACSi": 1.475,
+            "ACSp": 1.625,
+            "ECT": 2.9
+        }
+    },
+    "summary_stats": {
+        "n_instances": 20,
+        "n_runs": 30,
+        "algorithms": [
+            "ACSi",
+            "ACSp",
+            "ECT"
+        ]
+    }
+}
